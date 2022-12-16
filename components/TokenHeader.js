@@ -18,7 +18,7 @@ const TokenHeader = () => {
                         </nav>
                     </Grid.Column>
                     <Grid.Column computer={2}>
-                        <Image src="/bar.svg" alt="Menu"/>
+                        <Image src="/menu.svg" alt="Menu"/>
                     </Grid.Column>
                 </Grid.Row>
             </Grid>
