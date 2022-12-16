@@ -19,8 +19,8 @@ const AboutWe = () => {
                             EQUIPO
                         </Header>
                         <p>
-                            Hemos aprovechado al máximo las nuevas tecnologías para organizarnos como una fábrica digital que puede ofrecer precios muy ajustados. Pero no nos engañemos: las verdaderas máquinas son cada una de las personas que integran nuestro equipo. 
-                            Y todos, por cierto, trabajando codo con codo en las mismas oficinas.
+                            Hemos aprovechado al máximo las nuevas tecnologías para organizarnos como un gran estudio de innovación que pueda ofrecer precios muy ajustados. Pero no nos engañemos: El verdadero motor son cada una de las personas que integran nuestro equipo. 
+                            Y todos, por cierto, trabajando codo con codo para lograr nuestros objetivos.
                         </p>
                     </Grid.Column>
                     <Grid.Column computer={4} className="about-we__item">
@@ -38,7 +38,7 @@ const AboutWe = () => {
                             LA DISTANCIA
                         </Header>
                         <p>
-                            Esta es una de las principales dudas que surgen antes de comprar en Factoryfy. 
+                            Esta es una de las principales dudas que surgen antes de comprar en nuestro estudio. 
                             Vender en todo el mundo, nos ha obligado a presentar mejor las propuestas, justificar lo que hacemos,
                             ser más flexibles en las revisiones, cuidar más a nuestro cliente. La comunicación no es un problema, por mail o por teléfono, y si quieres podemos vernos por Skype.
                         </p>
@@ -50,7 +50,7 @@ const AboutWe = () => {
                         </Header>
                         <p>
                             Creatividad desbordante, diseño espectacular, tecnologías que funcionan, estándares fáciles de utilizar, todo menos ser aburrido, comunicación continua,
-                            muchas horas de vuelo, ganas de arriesgarse, experiencias únicas, todo controlado, personalidad, mucho cariño y todo con sentido para tu negocio.
+                            muchas horas de trabajo, ganas de crecer, experiencias únicas, todo controlado, personalidad, mucho cariño y todo con sentido para tu negocio.
                         </p>
                     </Grid.Column>
                 </Grid.Row>

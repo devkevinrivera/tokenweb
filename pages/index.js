@@ -26,9 +26,9 @@ export default function Home() {
       <TokenHeader />
       <HomeBanner />
       <TokenServices />
-      <AboutWe />
       <BannerTech />
       <TokenInfo />
+      <AboutWe />
       <Customers />
       <ContactSimple />
       <TokenFooter />

@@ -8,7 +8,7 @@ const TokenFooter = () => {
                 <Grid.Row>
                     <Grid.Column computer={13}>
                         <Image src="/logo.svg" alt="Logo footer" />
-                        <p>TO_KEN is the Startup Builder. Creamos futuros mejores a través de las Startups y apps.</p>
+                        <p>TO_KEN is Startup. Creamos futuros mejores a través de las innovación y la tecnologia.</p>
                         <p>© TO_KEN</p>
                     </Grid.Column>
                     <Grid.Column computer={3}>
