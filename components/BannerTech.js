@@ -8,7 +8,7 @@ const BannerTech = () => {
                 <Grid.Row>
                     <Grid.Column>
                         <Header as="h6">
-                            Web & Ecommerce & Apps
+                            Web & Ecommerce & <span className='color-green-low'>Apps</span>
                         </Header>
                     </Grid.Column>
                 </Grid.Row>
