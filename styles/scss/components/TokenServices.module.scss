@@ -1,0 +1,29 @@
+.token-services {
+    .box {
+        padding: 5rem 1rem;
+        margin: 1rem 0;
+        border-radius: 4px;
+        width: 100%;
+    }
+    .blue {
+        background-color: #00B4E3;
+    }
+    .red {
+        background-color: #D8131B;
+    }
+    .yellow {
+        background-color: #FDB700;
+    }
+    .pink {
+        background-color: #FF7B83;
+    }
+    .al-center {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+    .mobile-center {
+        display: flex !important;
+        justify-content: center !important;
+    }
+}

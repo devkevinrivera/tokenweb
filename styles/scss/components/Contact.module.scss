@@ -1,0 +1,31 @@
+.contacto-simple {
+    &__container {
+        height: 560px;
+        border-radius: 4px;
+        padding: 10rem 4rem 0 4rem !important;
+        background-color: #6411FF !important;
+        margin-bottom: 10rem !important;
+        box-shadow: 0 1px 4px #00000026 !important;
+    }
+    &__message {
+        font-weight: 600;
+        font-size: 40px !important;
+        text-align: center;
+    }
+    &__image {
+        width: 335px;
+    }
+    &__center {
+        display: flex !important;
+        justify-content: center !important;
+    }
+    text-align: center;
+    .button-home {
+        background-color: #FF0062 !important;
+    }
+    &__message-container {
+        display: flex !important;
+        flex-direction: column ;
+        align-items: center !important;
+    }
+}

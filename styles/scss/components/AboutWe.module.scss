@@ -1,0 +1,23 @@
+.about-we {
+    color: #000;
+    padding: 14rem 15rem 8rem 15rem !important;
+    &__item {
+        img {
+            width: 24px;
+            height: 24px;
+        }
+        border-radius: 4px;
+        padding: 2rem .75rem;
+        background-color: #f1f2f3;
+        h5 {
+            font-size: 20px !important;
+        }
+    }
+    .wrap {
+        display: flex !important;
+        justify-content: space-between !important;
+        gap: 10px;
+        flex-wrap: nowrap !important;
+        margin-top: 7rem;
+    }
+}

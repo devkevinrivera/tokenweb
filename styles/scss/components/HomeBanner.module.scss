@@ -1,0 +1,28 @@
+.home-banner {
+    padding-top: 8rem;
+    margin-bottom: 70px !important;
+    &__content {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    h2 {
+        font-size: 4.8em !important;
+        margin-bottom: 0rem !important;
+        span {
+            color: #16E22A !important;
+        }
+    }
+    h3 {
+        font-weight: 400 !important;
+        font-size: 1.8em !important;
+        margin-bottom: 4rem !important;
+        span {
+            color: #16E22A !important;
+        }
+    }
+    h2, h3 {
+        text-align: center;
+        color: white !important;
+    }
+}

@@ -1,0 +1,18 @@
+//Index
+@import './mixins/index';
+@import './variables/index';
+@import './media-query.scss';
+@import './colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+// Components
+
+@import '../scss/components/TokenHeader.module.scss';
+@import '../scss/components/HomeBanner.module.scss';
+@import '../scss/components/TokenServices.module.scss';
+@import '../scss/components/AboutWe.module.scss';
+@import '../scss/components/Button.module.scss';
+@import '../scss/components/TechBanner.module.scss';
+@import '../scss/components/TokenInfo.module.scss';
+@import '../scss/components/Customers.module.scss';
+@import '../scss/components/Contact.module.scss';
