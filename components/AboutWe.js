@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Grid, Header, Image } from 'semantic-ui-react';
+import { Container, Grid, Header, Icon, Image } from 'semantic-ui-react';
 
 const AboutWe = () => {
     return (
@@ -14,60 +14,44 @@ const AboutWe = () => {
                 </Grid.Row>
                 <Grid.Row className='wrap'>
                     <Grid.Column computer={4} className="about-we__item">
-                        <Image src="/user.svg" alt="" />
+                        <Icon name="group" size="big" />
                         <Header as="h5">
-                            Diseño Y desarrollo web
+                            EQUIPO
                         </Header>
                         <p>
-                            Estamos convencidos de que no querrás crear una app
-                            sólo por diversión. Tu objetivo es crear un negocio innovador. Desarrollar una app siempre es el medio, nunca el fin. 
+                            Hemos aprovechado al máximo las nuevas tecnologías para organizarnos como una fábrica digital que puede ofrecer precios muy ajustados. Pero no nos engañemos: las verdaderas máquinas son cada una de las personas que integran nuestro equipo. 
+                            Y todos, por cierto, trabajando codo con codo en las mismas oficinas.
                         </p>
-                        <ul>
-                            <li>Necesitas un diseño atractivo</li>
-                            <li>Trato personal contigo</li>
-                        </ul>
                     </Grid.Column>
                     <Grid.Column computer={4} className="about-we__item">
-                        <Image src="/user.svg" alt="" />
+                        <Icon name="certificate" size='big' />
                         <Header as="h5">
-                            Diseño Y desarrollo web
+                            LA GARANTÍA
                         </Header>
                         <p>
-                            Estamos convencidos de que no querrás crear una app
-                            sólo por diversión. Tu objetivo es crear un negocio innovador. Desarrollar una app siempre es el medio, nunca el fin. 
+                            ¿Comprar por internet un producto creativo y personalizado? No estamos locos, hemos demostrado que funciona. Siempre cedemos los derechos de propiedad intelectual, hacemos muchas revisiones, te damos todos los archivos, siempre puedes hacer cosas con otro proveedor. Un solo cliente insatisfecho sería un fracaso. 
                         </p>
-                        <ul>
-                            <li>Necesitas un diseño atractivo</li>
-                            <li>Trato personal contigo</li>
-                        </ul>
                     </Grid.Column>
                     <Grid.Column computer={4} className="about-we__item">
-                        <Image src="/user.svg" alt="" />
+                        <Icon name="world" size="big" />
                         <Header as="h5">
-                            Diseño Y desarrollo web
+                            LA DISTANCIA
                         </Header>
                         <p>
-                            Estamos convencidos de que no querrás crear una app
-                            sólo por diversión. Tu objetivo es crear un negocio innovador. Desarrollar una app siempre es el medio, nunca el fin. 
+                            Esta es una de las principales dudas que surgen antes de comprar en Factoryfy. 
+                            Vender en todo el mundo, nos ha obligado a presentar mejor las propuestas, justificar lo que hacemos,
+                            ser más flexibles en las revisiones, cuidar más a nuestro cliente. La comunicación no es un problema, por mail o por teléfono, y si quieres podemos vernos por Skype.
                         </p>
-                        <ul>
-                            <li>Necesitas un diseño atractivo</li>
-                            <li>Trato personal contigo</li>
-                        </ul>
                     </Grid.Column>
                     <Grid.Column computer={4} className="about-we__item">
-                        <Image src="/user.svg" alt="" />
+                        <Icon name="chart pie" size="big" />
                         <Header as="h5">
-                            Diseño Y desarrollo web
+                            LOS INGREDIENTES
                         </Header>
                         <p>
-                            Estamos convencidos de que no querrás crear una app
-                            sólo por diversión. Tu objetivo es crear un negocio innovador. Desarrollar una app siempre es el medio, nunca el fin. 
+                            Creatividad desbordante, diseño espectacular, tecnologías que funcionan, estándares fáciles de utilizar, todo menos ser aburrido, comunicación continua,
+                            muchas horas de vuelo, ganas de arriesgarse, experiencias únicas, todo controlado, personalidad, mucho cariño y todo con sentido para tu negocio.
                         </p>
-                        <ul>
-                            <li>Necesitas un diseño atractivo</li>
-                            <li>Trato personal contigo</li>
-                        </ul>
                     </Grid.Column>
                 </Grid.Row>
             </Grid>
