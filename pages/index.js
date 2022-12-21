@@ -12,10 +12,13 @@ import Customers from '../components/Customers'
 import ContactSimple from '../components/ContactSimple'
 import TokenFooter from '../components/TokenFooter'
 import MenuToken from '../components/MenuToken'
+import { useSelector } from 'react-redux'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const showMenu = useSelector(state => state.app.showMenu);
+  
   return (
     <section className='container-tokenweb'>
       <Head>
@@ -24,7 +27,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <MenuToken />
+      {
+        showMenu && (
+          <MenuToken />
+        )
+      }
       <TokenHeader />
       <HomeBanner />
       <TokenServices />

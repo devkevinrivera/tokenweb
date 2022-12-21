@@ -1,7 +1,11 @@
 import React from 'react';
 import { Container, Grid, Icon, Image } from 'semantic-ui-react';
+import { useDispatch } from 'react-redux';
+import { handlerShowMenu } from '../redux/slices/config';
 
 const MenuToken = () => {
+    const dispatch = useDispatch();
+
     return (
         <Container className='token-menu'>
             <Grid columns={16}>
@@ -10,7 +14,7 @@ const MenuToken = () => {
                         <Image src="/logo.svg" />
                     </Grid.Column>
                     <Grid.Column computer={8} textAlign="right">
-                        <Icon name="close" />
+                        <Icon name="close" onClick={() => dispatch(handlerShowMenu(false))}/>
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
