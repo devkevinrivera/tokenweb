@@ -4,7 +4,9 @@
 @import './media-query.scss';
 @import './colors.scss';
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Rubik+Vinyl&display=swap');
 // Components
 
 @import '../scss/components/TokenHeader.module.scss';
@@ -16,3 +18,10 @@
 @import '../scss/components/TokenInfo.module.scss';
 @import '../scss/components/Customers.module.scss';
 @import '../scss/components/Contact.module.scss';
+@import '../scss/components/MenuToken.module.scss';
+
+//Commons
+
+.container-tokenweb {
+    position: relative;
+}

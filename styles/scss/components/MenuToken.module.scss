@@ -1,0 +1,59 @@
+.token-menu {
+    position: fixed;
+    width: 100vw !important;
+    height: 100vw !important;
+    position: fixed;
+    background-color: black;
+    z-index: 1;
+    padding-left: 3rem !important;
+    padding-top: 4rem !important;
+    padding: 2rem;
+    font-size: 5rem;
+    overflow-y: hidden;
+    
+    p {
+        margin: 0px !important;
+    }
+
+    &__item {
+        font-family: 'Anton', cursive;
+        font-size: 3.2rem;
+    }
+    &__item-primary {
+        font-family: 'Rubik Vinyl', cursive;
+    }
+    &__item-secondary {
+        font-family: 'Banger', cursive;
+    }
+
+    &__activator {
+        margin-bottom: 2rem;
+        cursor: pointer;
+        
+        &:hover {
+            transition: display 1s ease;
+            .itemlink {
+                display: none;
+            }
+            .itemhover {
+                display: block;
+            }
+        }
+        .itemhover {
+            display: none;
+        }
+    }
+
+    .yellow {
+        color: #fac600;
+    }
+    .purple {
+        color: #fc76fc;
+    }
+    .blue {
+        color: #3ad2e6;
+    }
+    .green {
+        color: #00e47b;
+    }
+}
