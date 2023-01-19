@@ -3,7 +3,7 @@ import { Container, Grid, Header, Icon, Image } from 'semantic-ui-react';
 
 const AboutWe = () => {
     return (
-        <Container fluid className='about-we'>
+        <Container className='about-we'>
             <Grid columns={16}>
                 <Grid.Row>
                     <Grid.Column computer={16}>
@@ -14,43 +14,39 @@ const AboutWe = () => {
                 </Grid.Row>
                 <Grid.Row className='wrap'>
                     <Grid.Column computer={4} className="about-we__item">
-                        <Icon name="group" size="big" />
+                        <Icon name="group" size="big" className='icon-about' />
                         <Header as="h5">
-                            EQUIPO
+                            Diseño atractivo y moderno
                         </Header>
                         <p>
-                            Hemos aprovechado al máximo las nuevas tecnologías para organizarnos como un gran estudio de innovación que pueda ofrecer precios muy ajustados. Pero no nos engañemos: El verdadero motor son cada una de las personas que integran nuestro equipo. 
-                            Y todos, por cierto, trabajando codo con codo para lograr nuestros objetivos.
+                            Una agencia de diseño web debe tener la capacidad de crear diseños que atraigan la atención de los visitantes y se destaquen entre la competencia
                         </p>
                     </Grid.Column>
                     <Grid.Column computer={4} className="about-we__item">
-                        <Icon name="certificate" size='big' />
+                        <Icon name="certificate" size='big' className='icon-about'/>
                         <Header as="h5">
-                            LA GARANTÍA
+                            Optimización para motores de búsqueda
                         </Header>
                         <p>
-                            ¿Comprar por internet un producto creativo y personalizado? No estamos locos, hemos demostrado que funciona. Siempre cedemos los derechos de propiedad intelectual, hacemos muchas revisiones, te damos todos los archivos, siempre puedes hacer cosas con otro proveedor. Un solo cliente insatisfecho sería un fracaso. 
+                            Es importante que una agencia de diseño web entienda cómo optimizar un sitio web para que sea fácil de encontrar en los motores de búsqueda
                         </p>
                     </Grid.Column>
                     <Grid.Column computer={4} className="about-we__item">
-                        <Icon name="world" size="big" />
+                        <Icon name="world" size="big" className='icon-about'/>
                         <Header as="h5">
-                            LA DISTANCIA
+                            Experiencia de usuario
                         </Header>
                         <p>
-                            Esta es una de las principales dudas que surgen antes de comprar en nuestro estudio. 
-                            Vender en todo el mundo, nos ha obligado a presentar mejor las propuestas, justificar lo que hacemos,
-                            ser más flexibles en las revisiones, cuidar más a nuestro cliente. La comunicación no es un problema, por mail o por teléfono, y si quieres podemos vernos por Skype.
+                            Una agencia de diseño web debe ser capaz de crear una interfaz fácil de usar y navegar para mejorar la experiencia del usuario
                         </p>
                     </Grid.Column>
                     <Grid.Column computer={4} className="about-we__item">
-                        <Icon name="chart pie" size="big" />
+                        <Icon name="chart pie" size="big" className='icon-about'/>
                         <Header as="h5">
-                            LOS INGREDIENTES
+                            Servicio al cliente
                         </Header>
                         <p>
-                            Creatividad desbordante, diseño espectacular, tecnologías que funcionan, estándares fáciles de utilizar, todo menos ser aburrido, comunicación continua,
-                            muchas horas de trabajo, ganas de crecer, experiencias únicas, todo controlado, personalidad, mucho cariño y todo con sentido para tu negocio.
+                            Una agencia de diseño web debe brindar un servicio excepcional al cliente, trabajando estrechamente con ellos para entender sus necesidades y garantizar que el sitio web cumpla con sus expectativas.
                         </p>
                     </Grid.Column>
                 </Grid.Row>

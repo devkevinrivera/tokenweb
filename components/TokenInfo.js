@@ -12,8 +12,7 @@ const TokenInfo = () => {
                                 DIFERÉNCIATE DEL RESTO
                             </Header>
                             <p>
-                                En nuestro estudio tenemos todos los recursos para que puedas tener tu página web lista en un tiempo record y a un precio increíble. 
-                                Tu web disponible para todos los dispositivos móviles. El diseño de páginas web más atractivo. El diseño web en Valencia más actual. 
+                            Nuestra agencia de diseño web ofrece un servicio completo y personalizado para tu negocio. Ofrecemos diseño atractivo y moderno, optimización para motores de búsqueda, y una interfaz fácil de usar. Además, brindamos una atención al cliente excepcional para garantizar que tu sitio web sea exactamente lo que necesitas para destacar entre la competencia y aumentar tu presencia en línea.
                             </p>
 
                             <div className='token-info__photo'>
@@ -29,17 +28,11 @@ const TokenInfo = () => {
                                 CREAMOS PÁGINAS WEB QUE POSICIONAN EN LOS NAVEGADORES
                             </Header>
                             <p>
-                                Somos <b>expertos en WordPress,</b> diseñamos su página web corporativa,
-                                personal o e-commerce, utilizando el mejor gestor de contenidos para la creación
-                                de páginas web, el cual le permitirá modificar o ampliar sus contenidos, fotos,
-                                textos, videos o implementar un <b>carrito de la compra</b> para vender En
-                                internet.
-                                <br></br>
-                                Prestamos <b>servicio de mantenimiento web, su página siempre actualizada.</b>
+                                ¿Quieres mejorar la visibilidad de tu sitio web en los motores de búsqueda y atraer más tráfico a tu sitio? Nuestros servicios de posicionamiento SEO son la solución que necesitas. Ofrecemos un enfoque estratégico y personalizado para mejorar tu posicionamiento en los motores de búsqueda, utilizando técnicas de optimización on-page y off-page, además de un seguimiento y análisis constante para medir el rendimiento y ajustar la estrategia. Con nuestra ayuda, tu sitio web será más fácil de encontrar y atraerá a más clientes potenciales.
                             </p>
 
                             <div className='token-info__photo'>
-                                <Image src="/middle-mobile.svg" alt="Technologies" />
+                                <Image src="/middle-mobile-seo.svg" alt="Technologies" />
                             </div>
                         </section>
                     </Grid.Column>
@@ -49,12 +42,11 @@ const TokenInfo = () => {
                                 DESARROLLAMOS TODO TIPO DE APLICACIONES WEB A MEDIDA
                             </Header>
                             <p>
-                                Nuestros equipos de ingeniería utilizan tecnologías de Frontend y Backend 100% a medida. Nunca utilizamos sistemas pre programados o basados en plantillas. 
-                                No es un capricho, es la única forma de garantizar la futura escalabilidad de tu idea, solidificar los cimientos técnicos y hacer que tus usuarios tengan la experiencia que se merecen. Nuestras apps cumplen los máximos estándares de calidad marcados por Apple y Google en sus stores. Nos lo tomamos muy en serio.
+                                ¿Necesitas una aplicación web personalizada para tu negocio? Nuestros servicios de desarrollo de aplicaciones web a medida son la solución perfecta. Ofrecemos un enfoque único y adaptado a tus necesidades, desde la planificación hasta el diseño y el desarrollo de la aplicación. Trabajamos estrechamente contigo para asegurarnos de que tu aplicación sea atractiva, fácil de usar y altamente funcional. Además, brindamos un servicio de soporte y mantenimiento continuo para garantizar que tu aplicación siempre esté actualizada y funcionando sin problemas.
                             </p>
 
                             <div className='token-info__photo'>
-                                <Image src="/middle-mobile.svg" alt="Technologies" />
+                                <Image src="/middle-mobile-software.png" alt="Technologies" />
                             </div>
                         </section>
                     </Grid.Column>

@@ -10,8 +10,7 @@ const TokenServices = () => {
                         <div className='blue box'>
                             <h4>Diseño Web</h4>
                             <p>
-                                Llevamos a cabo proyectos web que funcionan gracias aun gran diseño, 
-                                una programación perfecta y una comunicación potente.
+                                En Token ofrecemos servicios de diseño web profesionales para ayudar a tu negocio a tener una presencia en línea impactante. Ofrecemos diseños personalizados, modernos y adaptados a tus necesidades específicas. 
                             </p>
                             <ul>
                                 <li>
@@ -24,7 +23,7 @@ const TokenServices = () => {
                         <div className='red box'>
                             <h4>Diseño de aplicaciones android/IOS</h4>
                             <p>
-                                Afrontamos el diseño y desarrollo de todo tipo de aplicaciones móviles para empresas y startups, desde apps de productividad, marketplaces, apps e-commerce, juegos, etc. 
+                                Lleva tu negocio al siguiente nivel con nuestros servicios de diseño de aplicaciones. Diseño atractivo, interfaz fácil de usar y alta funcionalidad. ¡Mejora la experiencia de tus clientes con una aplicación personalizada!
                             </p>
                             <ul>
                                 <li><Icon name="check" />Aplicaciones de todo tipo: Delivery, Facturación, Gestión de stock, etc...</li>
@@ -38,7 +37,7 @@ const TokenServices = () => {
                         <div className='yellow box'>
                             <h4>Tiendas Online</h4>
                             <p>
-                                Vendemos tiendas que venden porque son coherentes con tu sector, con tu proyecto, con tu cliente. Tiendas online que te dan confianza.
+                                Diseñamos tu tienda online para destacar en la competencia. Atractivo visual, fácil navegación y optimización para motores de búsqueda. ¡Aumenta tus ventas con nuestros servicios de diseño!
                             </p>
                             <ul>
                                 <li><Icon name="check" />Prestashop, Shopify, WordPress y más para que empices a vender.</li>
@@ -48,7 +47,7 @@ const TokenServices = () => {
                         <div className='pink box'>
                             <h4>Campañas SEO/SEM</h4>
                             <p>
-                                Tenemos planes de Posicionamiento para todos los públicos. Creatividad y analítica se dan la mano.
+                                Mejora tu presencia en internet con nuestros servicios de posicionamiento web. Aumenta tu visibilidad en los motores de búsqueda y atrae más tráfico a tu sitio. ¡Destaca entre la competencia y aumenta tus ventas!
                             </p>
                             <ul>
                                 <li><Icon name="check" />Gracias a nuestras herramientas de analisis configuraremos tu tienda optimizandola al maximo, para que puedas aparecer en las primeras busquedas.</li>

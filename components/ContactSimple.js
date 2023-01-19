@@ -11,7 +11,7 @@ const ContactSimple = () => {
                             <Grid.Row>
                                 <Grid.Column computer={8}  className='contacto-simple__message-container'>
                                     <p className='contacto-simple__message'>
-                                        ¿Hablamos sobre tu proyecto? Reserva una llamada
+                                    Haz que tu negocio brille en línea con nuestros servicios de diseño web profesionales. ¡Te ayudaremos a destacar entre la competencia y atraer más clientes!
                                     </p>
                                     <Button className='button-home'>Agendar llamada</Button>
                                 </Grid.Column>

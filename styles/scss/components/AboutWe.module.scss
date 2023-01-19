@@ -1,6 +1,6 @@
 .about-we {
     color: #000;
-    padding: 14rem 15rem 8rem 15rem !important;
+    padding: 14rem 0rem 8rem 0rem !important;
     &__item {
         img {
             width: 24px;
@@ -19,5 +19,8 @@
         gap: 10px;
         flex-wrap: nowrap !important;
         margin-top: 7rem;
+    }
+    i {
+        color: #16e22a!important;
     }
 }

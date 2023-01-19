@@ -8,10 +8,10 @@ const HomeBanner = () => {
                 <Grid.Row>
                     <Grid.Column computer={16} className='home-banner__content'>
                         <Header as="h2">
-                            ESTUDIO DE DISEÑO <span>WEB</span> Y DESARROLLO DE SOFTWARE
+                            <span>DISEÑANDO EL FUTURO:</span> AGENCIA DE DISEÑO WEB QUE TRANSFORMA TU PRESENCIA EN LÍNEA
                         </Header>
                         <Header as="h3">
-                            Un único proveedor de servicios digitales para tu proyecto online.
+                            Diseño web de vanguardia para llevar tu negocio al siguiente nivel
                         </Header>
                         <Button className='button-home'>
                             <Icon name="terminal" />
