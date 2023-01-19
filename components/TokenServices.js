@@ -6,7 +6,7 @@ const TokenServices = () => {
         <Container className='token-services'>
             <Grid columns={16}>
                 <Grid.Row>
-                    <Grid.Column computer={5} className='al-center'>
+                    <Grid.Column mobile={16} tablet={8} computer={5} className='al-center'>
                         <div className='blue box'>
                             <h4>Diseño Web</h4>
                             <p>
@@ -30,10 +30,10 @@ const TokenServices = () => {
                             </ul>
                         </div>
                     </Grid.Column>
-                    <Grid.Column computer={6} className="mobile-center">
+                    <Grid.Column only='computer' computer={6} className="mobile-center">
                         <Image src="/mobile.svg" />
                     </Grid.Column>
-                    <Grid.Column computer={5} className='al-center'>
+                    <Grid.Column mobile={16} tablet={8} computer={5} className='al-center'>
                         <div className='yellow box'>
                             <h4>Tiendas Online</h4>
                             <p>

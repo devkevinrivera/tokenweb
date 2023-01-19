@@ -9,10 +9,10 @@ const TokenHeader = () => {
         <Container className='token-header'>
             <Grid columns={16}>
                 <Grid.Row>
-                    <Grid.Column computer={4}>
+                    <Grid.Column mobile={13} computer={4}>
                         <Image src="/logo.svg" alt="Token Logo"/>
                     </Grid.Column>
-                    <Grid.Column computer={10}>
+                    <Grid.Column computer={10} only="computer">
                         <nav>
                             <span>Inicio</span>
                             <span>Nosotros</span>
@@ -20,7 +20,7 @@ const TokenHeader = () => {
                             <span>Proyectos</span>
                         </nav>
                     </Grid.Column>
-                    <Grid.Column computer={2}>
+                    <Grid.Column computer={2} verticalAlign="middle">
                         <Image onClick={() => dispatch(handlerShowMenu(true))} src="/menu.svg" alt="Menu"/>
                     </Grid.Column>
                 </Grid.Row>
