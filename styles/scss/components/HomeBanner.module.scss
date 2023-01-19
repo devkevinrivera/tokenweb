@@ -9,6 +9,10 @@
     h2 {
         font-size: 3.7em !important;
         margin-bottom: 0rem !important;
+
+        @include downBreakpoint($breakpoint-up-sm) {
+            font-size: 1.7em !important;
+        }
         span {
             color: #16E22A !important;
         }
@@ -17,6 +21,10 @@
         font-weight: 400 !important;
         font-size: 1.8em !important;
         margin-bottom: 4rem !important;
+
+        @include downBreakpoint($breakpoint-up-sm) {
+            font-size: 1.1em !important;
+        }
         span {
             color: #16E22A !important;
         }

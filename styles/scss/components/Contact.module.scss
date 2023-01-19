@@ -6,11 +6,20 @@
         background-color: #6411FF !important;
         margin-bottom: 10rem !important;
         box-shadow: 0 1px 4px #00000026 !important;
+
+        @include downBreakpoint($breakpoint-up-sm) {
+            height: fit-content;
+            padding: 3rem 1rem !important;
+        }
     }
     &__message {
         font-weight: 600;
         font-size: 30px !important;
         text-align: center;
+
+         @include downBreakpoint($breakpoint-up-sm) {
+            font-size: 22px !important;
+        }
     }
     &__image {
         width: 335px;

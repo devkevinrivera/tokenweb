@@ -13,7 +13,7 @@ const Customers = () => {
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row className='gap'>
-                    <Grid.Column computer={8} className='customers__item'>
+                    <Grid.Column computer={8} mobile={16} className='customers__item'>
                         <Image src="/customer-quote.svg" alt="quote-user" />
                         <h3>Diseño atractivo y funcional: Mi experiencia con Token</h3>
 
@@ -29,7 +29,7 @@ const Customers = () => {
                         </nav>
                         <p>Juan, ingeniero civil</p>
                     </Grid.Column>
-                    <Grid.Column computer={8} className='customers__item'>
+                    <Grid.Column computer={8} mobile={16} className='customers__item'>
                         <Image src="/customer-quote.svg" alt="quote-user" />
                         <h3>Token me ayudó a dar vida a mi sitio web</h3>
 

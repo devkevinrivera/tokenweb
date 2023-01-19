@@ -22,7 +22,7 @@ const TokenInfo = () => {
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
-                    <Grid.Column computer={8}>
+                    <Grid.Column computer={8} tablet={8} mobile={16}>
                         <section className='token-info__container-middle'>
                             <Header as="h2">
                                 CREAMOS PÁGINAS WEB QUE POSICIONAN EN LOS NAVEGADORES
@@ -36,7 +36,7 @@ const TokenInfo = () => {
                             </div>
                         </section>
                     </Grid.Column>
-                    <Grid.Column computer={8}>
+                    <Grid.Column computer={8} mobile={16}>
                         <section className='token-info__container-middle'>
                             <Header as="h2">
                                 DESARROLLAMOS TODO TIPO DE APLICACIONES WEB A MEDIDA

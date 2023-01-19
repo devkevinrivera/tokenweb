@@ -13,7 +13,7 @@ const AboutWe = () => {
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row className='wrap'>
-                    <Grid.Column computer={4} className="about-we__item">
+                    <Grid.Column computer={4} tablet={7} mobile={16} className="about-we__item">
                         <Icon name="group" size="big" className='icon-about' />
                         <Header as="h5">
                             Diseño atractivo y moderno
@@ -22,7 +22,7 @@ const AboutWe = () => {
                             Una agencia de diseño web debe tener la capacidad de crear diseños que atraigan la atención de los visitantes y se destaquen entre la competencia
                         </p>
                     </Grid.Column>
-                    <Grid.Column computer={4} className="about-we__item">
+                    <Grid.Column computer={4} tablet={7} mobile={16} className="about-we__item">
                         <Icon name="certificate" size='big' className='icon-about'/>
                         <Header as="h5">
                             Optimización para motores de búsqueda
@@ -31,7 +31,7 @@ const AboutWe = () => {
                             Es importante que una agencia de diseño web entienda cómo optimizar un sitio web para que sea fácil de encontrar en los motores de búsqueda
                         </p>
                     </Grid.Column>
-                    <Grid.Column computer={4} className="about-we__item">
+                    <Grid.Column computer={4} tablet={7} mobile={16} className="about-we__item">
                         <Icon name="world" size="big" className='icon-about'/>
                         <Header as="h5">
                             Experiencia de usuario
@@ -40,7 +40,7 @@ const AboutWe = () => {
                             Una agencia de diseño web debe ser capaz de crear una interfaz fácil de usar y navegar para mejorar la experiencia del usuario
                         </p>
                     </Grid.Column>
-                    <Grid.Column computer={4} className="about-we__item">
+                    <Grid.Column computer={4} tablet={7} mobile={16} className="about-we__item">
                         <Icon name="chart pie" size="big" className='icon-about'/>
                         <Header as="h5">
                             Servicio al cliente

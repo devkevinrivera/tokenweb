@@ -1,8 +1,17 @@
 .banner-tech {
     text-align: right;
     margin-bottom: 5rem;
+
+    @include downBreakpoint($breakpoint-up-sm) {
+        // font-size: 3.2em !important;
+        margin-bottom: 1rem;
+    }
     h6 {
         font-size: 120px;
         color: #3C3C3C !important;
+
+        @include downBreakpoint($breakpoint-up-sm) {
+            font-size: 3.2em !important;
+        }
     }
 }
