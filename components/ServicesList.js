@@ -54,6 +54,27 @@ const ServicesList = () => {
                                         TAMBIÉN SABEMOS DARLE VISIBILIDAD:
                                     </Header>
                                 </Grid.Column>
+                                <Grid.Column className='service-container' computer={5} textAlign="center" verticalAlign='middle'>
+                                    <Image className='image-service' src="/social.svg" />
+                                    <h4>REDES SOCIALES</h4>
+                                    <p>
+                                        <i>Diseño y campañas  en las redes sociales</i>
+                                    </p>
+                                </Grid.Column>
+                                <Grid.Column className='service-container' computer={6} textAlign="center" verticalAlign='middle'>
+                                    <Image className='image-service' src="/adwords.svg" />
+                                    <h4>ADWORDS Y SEO</h4>
+                                    <p>
+                                        <i>Posiciona tu web o tus anuncios en primer lugar</i>
+                                    </p>
+                                </Grid.Column>
+                                <Grid.Column className='service-container' computer={5} textAlign="center" verticalAlign='middle'>
+                                    <Image className='image-service' src="/mailing.svg" />
+                                    <h4>MAIL MARKETING</h4>
+                                    <p>
+                                        <i>Diseño de campañas de mail marketing</i>
+                                    </p>
+                                </Grid.Column>
                             </Grid.Row>
                         </Grid>
                     </Grid.Column>
