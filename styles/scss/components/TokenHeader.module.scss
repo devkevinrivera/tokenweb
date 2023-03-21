@@ -1,3 +1,25 @@
 .token-header {
     padding: 3.5rem 0;
 }
+
+.navigation-desktop {
+    display: flex !important;
+    justify-content: center !important;
+    span {
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 1.2rem !important;
+        &:hover {
+            color: #16E22A;
+        }
+    }
+}
+
+.mini-link {
+    color: white;
+    margin-left: 2rem;
+    font-weight: bold;
+    &:hover {
+        color: #16E22A;
+    }
+}

@@ -25,3 +25,15 @@
 .container-tokenweb {
     position: relative;
 }
+
+.token-social {
+    margin-bottom: 1rem;
+
+    .token-color {
+        color: #f1f2f3;
+        margin-right: 12px;
+        &:hover {
+            color: #16e22a;
+        }
+    }
+}
