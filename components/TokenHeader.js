@@ -27,15 +27,18 @@ const TokenHeader = () => {
                     <Grid.Column computer={10} only="computer" verticalAlign='middle' >
                         <nav className='navigation-desktop'>
                             <span>Inicio</span>
+                            <span>Productos</span>
                             <span>Nosotros</span>
-                            <span>Servicios</span>
                             <span>Proyectos</span>
                             
                         </nav>
                     </Grid.Column>
-                    <Grid.Column computer={3} verticalAlign="middle">
+                    <Grid.Column computer={3} verticalAlign="middle" only='computer'>
                         {/* <Image onClick={() => dispatch(handlerShowMenu(true))} src="/menu.svg" alt="Menu"/> */}
                         <Button className='button-presupuesto'>Pide tu presupuesto</Button>
+                    </Grid.Column>
+                    <Grid.Column computer={3} verticalAlign="middle" className='only-menu-mobile'>
+                        <Image onClick={() => dispatch(handlerShowMenu(true))} src="/menu.svg" alt="Menu"/>
                     </Grid.Column>
                 </Grid.Row>
             </Grid>

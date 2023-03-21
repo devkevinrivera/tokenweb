@@ -6,7 +6,7 @@ const TokenFooter = () => {
         <Container>
             <Grid columns={16}>
                 <Grid.Row>
-                    <Grid.Column computer={4}>
+                    <Grid.Column computer={4} mobile={16}>
                         <h4>
                             <b>Síguenos</b>
                         </h4>
@@ -20,7 +20,7 @@ const TokenFooter = () => {
                             Desde Valencia y con mucho cariño, desarrollamos en serie productos únicos.
                         </h4>
                     </Grid.Column>
-                    <Grid.Column computer={4}>
+                    <Grid.Column computer={4} mobile={8}>
                         <div>
                             <h4>
                                 <b>Contacto</b>
@@ -36,7 +36,7 @@ const TokenFooter = () => {
                             <p>NIF 23324123F</p>
                         </div>
                     </Grid.Column>
-                    <Grid.Column computer={4}>
+                    <Grid.Column computer={4} mobile={8}>
                         <div>
                             <h4>
                                 <b>Legal</b>
@@ -47,7 +47,7 @@ const TokenFooter = () => {
                             <p>Política de privacidad</p>
                         </div>
                     </Grid.Column>
-                    <Grid.Column computer={4}>
+                    <Grid.Column computer={4} mobile={16}>
                         <div>
                             <h3>¿No encuentras lo que buscas?</h3>
                             <p>
@@ -57,7 +57,7 @@ const TokenFooter = () => {
                                 ¿Quieres un sitio web impactante y efectivo que atraiga a tus clientes potenciales? Con mi experiencia en diseño web,
                                 puedo crear una presencia en línea memorable que refleje la identidad de tu marca. Contáctame ahora para discutir tus necesidades y objetivos.
                             </p>
-                            <Button>Contactar</Button>
+                            <Button className='button-home'>Contactar</Button>
                         </div>
                     </Grid.Column>
                 </Grid.Row>

@@ -23,3 +23,9 @@
         color: #16E22A;
     }
 }
+
+@include upBreakpoint($breakpoint-up-md) {
+    .only-menu-mobile {
+        display: none !important;
+    }
+}
