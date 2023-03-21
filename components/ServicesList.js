@@ -14,8 +14,11 @@ const ServicesList = () => {
                         mobile={16}
                         tablet={16}
                     >
-                        <Header textAlign='left' as="h3" verticalAlign="middle">Servicios</Header>
-                        <Header as="h1">Tenemos todo lo que necesita tu marca para triunfar en línea</Header>
+                        
+                        <Header as="h1" className='title-web'>
+                            <p className='center' as="h3" verticalAlign="middle">Servicios</p>
+                            Tenemos todo lo que necesita tu marca para triunfar en línea
+                        </Header>
                     </Grid.Column>
                     <Grid.Column computer={16}>
                         <Grid columns={16}>
