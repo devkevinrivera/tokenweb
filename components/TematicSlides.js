@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Grid, Header, Image } from 'semantic-ui-react';
+import { Button, Container, Grid, Header, Image } from 'semantic-ui-react';
 
 const TematicSlides = () => {
     const items = [{
@@ -45,6 +45,11 @@ const TematicSlides = () => {
                             ))
                         }
                     </Grid.Row>
+                    <Grid.Row>
+                        <Grid.Column computer={16} textAlign="center">
+                            <Button className="button-presupuesto" content="Transforma tu empresa" />
+                        </Grid.Column>
+                    </Grid.Row>
                 </Grid>
             </Container>
         </div>
@@ -52,7 +57,6 @@ const TematicSlides = () => {
 };
 
 const TematicCard = ({ item }) => {
-    console.log(item)
     const { theme , url, titulo } = item;
     return (
         <Grid columns={16} className="card-item-tematic">
@@ -61,7 +65,11 @@ const TematicCard = ({ item }) => {
                     <Image src={url} />
                 </Grid.Column>
                 <Grid.Column computer={16}>
-                    <p className="card-item-tematic__title">{titulo}</p>
+                    <p className="card-item-tematic__title">
+                        <b>
+                            {titulo}
+                        </b>
+                    </p>
                 </Grid.Column>
             </Grid.Row>
         </Grid>

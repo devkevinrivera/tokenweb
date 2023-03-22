@@ -67,7 +67,7 @@ const Card = (item) => {
                 <Grid.Column computer={16}>
                     <div
                         style={{ backgroundImage:  `url(${url})` }}
-                        className="item-card__image">imagen</div>
+                        className="item-card__image"></div>
                 </Grid.Column>
                 <Grid.Column computer={16} textAlign="center" className="item-card__container">
                     <Button className='button-ghost'>Ver Web</Button>
