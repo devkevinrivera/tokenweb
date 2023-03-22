@@ -1,5 +1,5 @@
 .banner-reutilizable {
-    min-height: 360px !important;
+    min-height: 390px !important;
     display: flex;
     align-items: center;
 
@@ -30,5 +30,175 @@
         @include downBreakpoint($breakpoint-up-md) {
             width: 70%;
         }
-    }
+    }  
 }
+
+.list-blocks {
+   margin-bottom: 70px;
+}
+.item-box {
+    margin: 0px !important;
+    margin-bottom: 2rem !important;
+    background-color: #F1F2F3;
+    height: 10rem !important;
+    box-shadow: 0 1px 4px #ffffff26 !important;
+    border-radius: 4px;
+
+    &__description {
+         padding: 0px !important;
+         color: black;
+     }
+
+     &__description__container {
+         padding: 0px !important;
+     }
+    &__title {
+        color: black;
+    }
+    &__nopd {
+        padding-bottom: 0px !important;
+        display: flex !important;
+        align-items: center !important;
+    }
+ }
+
+ .banner-text {
+    margin-top: 2rem;
+    background-color: white;
+    padding-bottom: 3rem;
+    &__title {
+        color: black !important;
+        padding: 2rem 0rem 0px 0px !important;
+    }
+ }
+
+ .card-project {
+    margin-bottom: 4rem;
+
+    &__center {
+        display: flex !important;
+        justify-content: center !important;
+        margin-bottom: 3rem;
+    }
+    &__title {
+        color: #fff !important;
+        text-align: center;
+        padding-bottom: 3.5rem !important;
+    }
+    &__padding {
+        
+    }
+    &__space {
+        display: flex !important;
+        justify-content: space-around !important;
+    }
+ }
+
+ .space {
+    display: flex !important;
+    justify-content: center !important;
+ }
+ .item-card {
+    background-color: #fff !important;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(242, 242, 242, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1) !important;
+    p {
+        color: black;
+        font-weight: bold;
+    }
+    &__title {
+        padding: 2rem 0;
+    }
+    &__price {
+        padding: 2rem 0;
+    }
+    &__container {
+        padding: 2rem 0 .5rem 0 !important;
+    }
+    &__image {
+        height: 370px;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position: 0 0;   
+        transition: background-position 5s ease-out !important;
+
+        &:hover {
+            background-position: 0 100%;
+            transition: background-position 5s ease-out !important;
+            cursor: initial !important;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0) !important;
+            padding-bottom: 0;
+        }
+    }
+ }
+
+ .tematic-slides {
+    padding: 8rem 0px 4rem 0px !important;
+    h2 {
+        color: #ffffff !important;
+    }
+    &__one {
+        background: linear-gradient(180deg, #fa6aff 0, #ff15ef9d 105%);
+        border-bottom: 0 solid #ffbcb59e;
+        transition: border-bottom 0.5s;
+        height: 200px !important;
+    }
+    &__two {
+        background: linear-gradient(180deg, #e7e1fb, #f8f6fe);
+        border-bottom: 0 solid #ffbcb59e;
+        transition: border-bottom 0.5s;
+        height: 200px !important;
+    }
+    &__thre {
+        background: linear-gradient(180deg, #f6f2c6 0, #fdfcf3 105%);
+        border-bottom: 0 solid #e5db8d;
+        transition: border-bottom 0.5s;
+        height: 200px !important;
+    }
+    &__four {
+        background: linear-gradient(180deg, #d5eedc 0, #f3faf5 105%);
+        border-bottom: 0 solid #e9f6ed;
+        transition: border-bottom 0.5s;
+        height: 200px !important;
+    }
+    &__five {
+        background: linear-gradient(180deg, #f4c7c7 0, #fcf2f2 105%);
+        border-bottom: 0 solid #f8dedf;
+        transition: border-bottom 0.5s;
+        height: 200px !important;
+    }
+    &__six {
+        background: linear-gradient(180deg, #c3dbec 0, #f3f8fb 105%);
+        border-bottom: 0 solid #c3dbec;
+        transition: border-bottom 0.5s;
+        height: 200px !important;
+    }
+    &__seven {
+        background: linear-gradient(180deg, #fed998 0, #fff9ee 105%);
+        border-bottom: 0 solid #fed998;
+        transition: border-bottom 0.5s;
+        height: 200px !important;
+    }
+    &__eight {
+        background: linear-gradient(180deg, #dfe4e4 0, #f9fafa 105%);
+        border-bottom: 0 solid #f2f4f4;
+        transition: border-bottom 0.5s;
+        height: 200px !important;
+    }
+ }
+
+ .card-item-tematic {
+    padding-top: 4rem !important;
+    
+    img {
+        width: 60px;
+        height: 60px;
+        background-color: rgba(255, 255, 255, 0.4);
+    }
+    &__title {
+        color: #000;
+        font-size: 12px;
+        text-align: center;
+        margin-top: 8px !important;
+    }
+ }

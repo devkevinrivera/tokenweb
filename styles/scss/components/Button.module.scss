@@ -24,3 +24,32 @@
         padding: 6px 36px !important;
         font-size: 12px !important;
 }
+
+.button-ghost {
+    background: #1B1C1D00 !important;
+    border-color: #1B1C1D !important;
+    box-shadow: none !important;
+    color: #1B1C1D !important;
+    border: 1px solid #1B1C1D !important;
+    padding: 0.5rem 3rem !important;
+}
+
+.button-primary {
+    background: #1B1C1D !important;
+    border-color: #1B1C1D !important;
+    box-shadow: none !important;
+    color: #ffffff !important;
+    border: 1px solid #1B1C1D !important;
+    padding: 0.5rem 3rem !important;
+}
+
+.button-presupuesto-big {
+        color: #fff !important;
+        border-color: #000 !important;
+        background-color: #000 !important;
+        box-shadow: none !important;
+        font-weight: bold !important;
+        line-height: normal !important;
+        padding: 16px 36px !important;
+        font-size: 12px !important;
+}

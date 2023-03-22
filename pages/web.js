@@ -15,9 +15,14 @@ import TokenFooter from '../components/TokenFooter'
 import MenuToken from '../components/MenuToken'
 import { useSelector } from 'react-redux'
 import BannerReutilizable from '../components/BannerReutilizable';
+import ListBlocks from '../components/ListBlocks';
+import { VENTAJAS_DISEÑO_WEB } from '../constants/landingweb';
+import CardProject from '../components/CardProject';
+import TematicSlides from '../components/TematicSlides';
 
 const Web = () => {
     const showMenu = useSelector(state => state.app.showMenu);
+    const listaVentajas = VENTAJAS_DISEÑO_WEB;
 
     return (
         <section className='container-tokenweb'>
@@ -40,6 +45,13 @@ const Web = () => {
                 ctaText="Comienza hoy"
                 background="https://www.bigbuy.eu/psublic/img/landings/dropshipping-technology/technology-banner.jpg"
             />
+            <ListBlocks
+                options={listaVentajas}
+                image={''}
+                reverse={false}
+            />
+            <CardProject />
+            <TematicSlides />
             <ContactSimple />
             <TokenFooter />
         </section>
