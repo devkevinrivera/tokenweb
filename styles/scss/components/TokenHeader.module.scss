@@ -5,10 +5,13 @@
 .navigation-desktop {
     display: flex !important;
     justify-content: center !important;
-    span {
+    
+    a {
+        margin: 0 1rem !important;
         cursor: pointer;
+        color: white;
         font-weight: bold;
-        font-size: 1.2rem !important;
+        font-size: 1.4rem !important;
         &:hover {
             color: #16E22A;
         }

@@ -2,6 +2,8 @@ import React from 'react';
 import { Button, Container, Grid, Icon, Image } from 'semantic-ui-react';
 import { useDispatch } from 'react-redux';
 import { handlerShowMenu } from '../redux/slices/config';
+import Link from 'next/link'
+
 const TokenHeader = () => {
     const dispatch = useDispatch();
 
@@ -10,9 +12,9 @@ const TokenHeader = () => {
             <Grid columns={16}>
                 <Grid.Row>
                     <Grid.Column textAlign='right' computer={16}  only='computer'>
-                        <a href="mailto:hola@tokenstudio.com" className='mini-link'>
+                        <a href="mailto:hola@tokenstudio.eu" className='mini-link'>
                             <Icon name="mail" color='orange'/>
-                            hola@tokenstudio.com
+                            hola@tokenstudio.eu
                         </a>
                         <a href="https://wa.link/jyx7kr" className='mini-link'>
                             <Icon name="whatsapp" color='green' />
@@ -26,10 +28,10 @@ const TokenHeader = () => {
                     </Grid.Column>
                     <Grid.Column computer={10} only="computer" verticalAlign='middle' >
                         <nav className='navigation-desktop'>
-                            <span>Inicio</span>
-                            <span>Productos</span>
-                            <span>Nosotros</span>
-                            <span>Proyectos</span>
+                            <Link href="/">Inicio</Link>
+                            <Link href="/productos">Servicios</Link>
+                            <Link href="/">Nosotros</Link>
+                            <Link href="/">Proyectos</Link>
                             
                         </nav>
                     </Grid.Column>
