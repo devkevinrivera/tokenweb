@@ -1,0 +1,34 @@
+.banner-reutilizable {
+    min-height: 360px !important;
+    display: flex;
+    align-items: center;
+
+    &__cta {
+        color: #000 !important;
+        border-color: #16E22A !important;
+        background-color: #16E22A !important;
+        box-shadow: none !important;
+        font-weight: bold !important;
+        line-height: normal !important;
+        padding: 6px 36px !important;
+        font-size: 12px !important;
+    }
+    &__title {
+        color: #FFFFFF !important;
+        font-size: 2.6rem !important;
+        width: 70%;
+        margin: 0px !important;
+        @include downBreakpoint($breakpoint-up-md) {
+            width: 70%;
+        }
+    }
+    &__subtitle {
+        color: rgba(255, 255, 255, 0.6) !important;
+        font-size: 1.3rem !important;
+        width: 70%;
+        margin-top: 0px !important;
+        @include downBreakpoint($breakpoint-up-md) {
+            width: 70%;
+        }
+    }
+}

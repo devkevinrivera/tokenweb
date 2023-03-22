@@ -14,6 +14,7 @@ import ContactSimple from '../components/ContactSimple'
 import TokenFooter from '../components/TokenFooter'
 import MenuToken from '../components/MenuToken'
 import { useSelector } from 'react-redux'
+import BannerReutilizable from '../components/BannerReutilizable';
 
 const Web = () => {
     const showMenu = useSelector(state => state.app.showMenu);
@@ -32,7 +33,13 @@ const Web = () => {
                 )
             }
             <TokenHeader />
-            
+            <BannerReutilizable
+                title="Consigue una presencia online impresionante con nuestro diseño web profesional"
+                subtitle="Mejora la imagen de tu negocio y atrae a más clientes con nuestro diseño web personalizado y de alta calidad"
+                ctaLink=""
+                ctaText="Comienza hoy"
+                background="https://www.bigbuy.eu/psublic/img/landings/dropshipping-technology/technology-banner.jpg"
+            />
             <ContactSimple />
             <TokenFooter />
         </section>

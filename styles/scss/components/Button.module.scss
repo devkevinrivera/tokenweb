@@ -15,12 +15,12 @@
 }
 
 .button-presupuesto {
-    color: #000 !important;
-    font-size: 1.2rem !important;
-    font-weight: bold !important;
-    background-color: #16E22A !important;
-    padding: 12px 15px !important;
-    -webkit-box-shadow: 1px 3px 61px 8px rgba(255, 255, 255, 1) !important;
-        -moz-box-shadow: 1px 3px 61px 8px rgba(255, 255, 255, 1) !important;
-        box-shadow: 1px 3px 61px 8px rgba(255, 255, 255, 1);
+        color: #000 !important;
+        border-color: #16E22A !important;
+        background-color: #16E22A !important;
+        box-shadow: none !important;
+        font-weight: bold !important;
+        line-height: normal !important;
+        padding: 6px 36px !important;
+        font-size: 12px !important;
 }
