@@ -1,10 +1,13 @@
+import { useRouter } from 'next/router';
 import React from 'react';
 import { Button, Container, Grid, Header, Image } from 'semantic-ui-react';
 
 const TematicSlides = () => {
+    const router = useRouter();
+
     const items = [{
         theme: 'eight',
-        url: 'legal.png',
+        url: 'responsive.png',
         titulo: 'ADAPTABLE A DISPOSITIVOS MÓVILES'
     },{
         theme: 'two',
@@ -24,16 +27,16 @@ const TematicSlides = () => {
         titulo: 'ADAPTADA A NORMATIVA LEGAL'
     },{
         theme: 'six',
-        url: 'responsive.png',
-        titulo: 'ADAPTABLE A DISPOSITIVOS MÓVILES'
+        url: 'disenador-grafico.png',
+        titulo: 'DISEÑO GRAFÍCO ORIGINAL'
     },{
         theme: 'eight',
-        url: 'legal.png',
-        titulo: 'ADAPTABLE A DISPOSITIVOS MÓVILES'
+        url: 'web-analytics.png',
+        titulo: 'ALTA EN GOOGLE ANALYTICS'
     },{
         theme: 'eight',
-        url: 'legal.png',
-        titulo: 'ADAPTABLE A DISPOSITIVOS MÓVILES'
+        url: 'adwords.png',
+        titulo: 'ESTRATEGIA DE ADWORDS'
         },];
     
     return (
@@ -56,7 +59,7 @@ const TematicSlides = () => {
                     </Grid.Row>
                     <Grid.Row>
                         <Grid.Column computer={16} textAlign="center">
-                            <Button className="button-presupuesto" content="Transforma tu empresa" />
+                            <Button onClick={() => router.push('#contacto-simple')} className="go-service" content="Transforma tu empresa" />
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>

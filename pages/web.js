@@ -43,7 +43,7 @@ const Web = () => {
             <BannerReutilizable
                 title="Consigue una presencia online impresionante con nuestro diseño web profesional"
                 subtitle="Mejora la imagen de tu negocio y atrae a más clientes con nuestro diseño web personalizado y de alta calidad"
-                ctaLink=""
+                ctaLink="#contacto-simple"
                 ctaText="Comienza hoy"
                 background="https://www.bigbuy.eu/psublic/img/landings/dropshipping-technology/technology-banner.jpg"
             />

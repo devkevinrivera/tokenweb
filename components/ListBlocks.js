@@ -34,7 +34,8 @@ const ListBlocks = ({ options, image, reverse = false }) => {
             </Container>
             <BannerText item={{
                 btnTitle: "¡Contáctanos ahora!",
-                titleBanner:"Somos muy rápidos sin perder un píxel de calidad. ¿Cuándo necesitas tu proyecto?"
+                titleBanner: "Somos muy rápidos sin perder un píxel de calidad. ¿Cuándo necesitas tu proyecto?",
+                ctaLink: '#contacto-simple'
             }} />
         </div>
     );
@@ -46,7 +47,7 @@ const ItemBox = ({item}) => {
         <Grid columns={16} className="item-box">
             <Grid.Row className="item-box__nopd">
                 <Grid.Column computer={2}>
-                    <Icon className="item-box__icon" name={icon} size="large" color="yellow"/>
+                    <Icon className="item-box__icon" name={icon} size="large"/>
                 </Grid.Column>
                 <Grid.Column computer={14}>
                     <h4 className="item-box__title">{title}</h4>
