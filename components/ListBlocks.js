@@ -10,7 +10,7 @@ const ListBlocks = ({ options, image, reverse = false }) => {
                 <Grid columns={16}>
                     <Grid.Row>
                         <Grid.Column computer={4} only="computer" verticalAlign="middle">
-                            <Image src="/reporte-anual.png" />
+                            <Image src={image} />
                         </Grid.Column>
                         <Grid.Column computer={12} mobile={16}>
                             <Grid columns={16}>

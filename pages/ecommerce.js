@@ -110,7 +110,7 @@ const Web = () => {
             />
             <ListBlocks
                 options={listaVentajas}
-                image={''}
+                image="/e-commerce.png"
                 reverse={false}
             />
             <CardProject projects={projects} category={"NUESTROS ÚLTIMOS DISEÑOS DE TIENDAS ONLINE"} />
