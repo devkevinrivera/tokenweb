@@ -44,7 +44,7 @@ const Web = () => {
                 text: '',
                 webUri: 'https://disfrazitos.es/carnaval/'
             }, {
-                background: 'http://localhost:3000/interzoo.png',
+                background: '/interzoo.png',
                 title: 'Interzoo',
                 text: '',
                 webUri: 'https://www.interzoo.es/'
@@ -54,35 +54,35 @@ const Web = () => {
 
     const items = [{
         theme: 'eight',
-        url: 'ecommerce-responsive.svg',
+        url: '001-diseno-de-respuesta.png',
         titulo: 'Web responsive'
     },{
         theme: 'two',
-        url: 'ecommerce-administrable.svg',
+        url: '002-web-analytics.png',
         titulo: 'Autoadministrable'
     },{
         theme: 'thre',
-        url: 'ecommerce-legal.svg',
+        url: '001-requisitos.png',
         titulo: 'Adaptada a la normativa legal'
     },{
         theme: 'four',
-        url: 'ecommerce-seo.svg',
+        url: '002-posicionamiento-en-buscadores.png',
         titulo: 'Optimizada para SEO'
     },{
         theme: 'five',
-        url: 'ecommerce-formacion.svg',
+        url: '004-formacion.png',
         titulo: 'Formación'
     },{
         theme: 'six',
-        url: 'ecommerce-soporte.svg',
+        url: '005-soporte-tecnico.png',
         titulo: 'Soporte'
     },{
         theme: 'eight',
-        url: 'ecommerce-hosting.svg',
+        url: '006-servidor-dedicado.png',
         titulo: 'Hosting profesional'
     },{
         theme: 'eight',
-        url: 'ecommerce-cliente-full.svg',
+        url: '007-revision-del-cliente.png',
         titulo: 'Clientes satisfechos'
     },];
     
