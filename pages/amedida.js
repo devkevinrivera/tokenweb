@@ -25,9 +25,9 @@ import TagManager from 'react-gtm-module'
 const tagManagerArgs = {
     gtmId: 'G-R8SYVSLXY9',
     dataLayer: {
-        userId: '001',
-        userProject: 'TokenDiseñoMedida',
-        page: 'Diseño a medida'
+        event: 'pageview',
+        pagePath: 'https://www.tokenstudio.eu/amedida',
+        pageTitle: 'amedida',
   },
 };
 TagManager.initialize(tagManagerArgs);

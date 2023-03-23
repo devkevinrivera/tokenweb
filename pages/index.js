@@ -18,9 +18,9 @@ import TagManager from 'react-gtm-module'
 const tagManagerArgs = {
   gtmId: 'G-R8SYVSLXY9',
   dataLayer: {
-        userId: '001',
-        userProject: 'TokenHome',
-        page: 'home'
+    event: 'pageview',
+    pagePath: 'https://www.tokenstudio.eu/',
+    pageTitle: 'inicio',
   },
 };
 TagManager.initialize(tagManagerArgs);
