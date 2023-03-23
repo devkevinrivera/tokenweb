@@ -20,6 +20,17 @@ import { DESARROLLO_WEB_MEDIDA, VENTAJAS_DISEÑO_ECOMMERCE, VENTAJAS_DISEÑO_WEB
 import CardProject from '../components/CardProject';
 import TematicSlides from '../components/TematicSlides';
 import OfficeWork from '../components/OfficeWork';
+import TagManager from 'react-gtm-module'
+
+const tagManagerArgs = {
+    gtmId: 'G-R8SYVSLXY9',
+    dataLayer: {
+        userId: '001',
+        userProject: 'TokenDiseñoMedida',
+        page: 'Diseño a medida'
+  },
+};
+TagManager.initialize(tagManagerArgs);
 
 const Web = () => {
     const showMenu = useSelector(state => state.app.showMenu);

@@ -16,7 +16,12 @@ import { useSelector } from 'react-redux'
 import TagManager from 'react-gtm-module'
 
 const tagManagerArgs = {
-  gtmId: 'G-R8SYVSLXY9'
+  gtmId: 'G-R8SYVSLXY9',
+  dataLayer: {
+        userId: '001',
+        userProject: 'TokenHome',
+        page: 'home'
+  },
 };
 TagManager.initialize(tagManagerArgs);
 

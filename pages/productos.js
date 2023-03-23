@@ -14,6 +14,17 @@ import TokenFooter from '../components/TokenFooter'
 import MenuToken from '../components/MenuToken'
 import { useSelector } from 'react-redux'
 import ServicesList from '../components/ServicesList'
+import TagManager from 'react-gtm-module'
+
+const tagManagerArgs = {
+    gtmId: 'G-R8SYVSLXY9',
+    dataLayer: {
+        userId: '001',
+        userProject: 'TokenServicios',
+        page: 'servicios'
+  },
+};
+TagManager.initialize(tagManagerArgs);
 
 const productos = () => {
     const showMenu = useSelector(state => state.app.showMenu);

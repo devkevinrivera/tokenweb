@@ -21,6 +21,18 @@ import CardProject from '../components/CardProject';
 import TematicSlides from '../components/TematicSlides';
 import OfficeWork from '../components/OfficeWork';
 
+import TagManager from 'react-gtm-module'
+
+const tagManagerArgs = {
+    gtmId: 'G-R8SYVSLXY9',
+    dataLayer: {
+        userId: '001',
+        userProject: 'TokenWeb',
+        page: 'Diseño Web'
+  },
+};
+TagManager.initialize(tagManagerArgs);
+
 const Web = () => {
     const showMenu = useSelector(state => state.app.showMenu);
     const listaVentajas = VENTAJAS_DISEÑO_WEB;
