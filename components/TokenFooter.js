@@ -60,7 +60,9 @@ const TokenFooter = () => {
                                 ¿Quieres un sitio web impactante y efectivo que atraiga a tus clientes potenciales? Con mi experiencia en diseño web,
                                 puedo crear una presencia en línea memorable que refleje la identidad de tu marca. Contáctame ahora para discutir tus necesidades y objetivos.
                             </p>
-                            <Button className='button-home'>Contactar</Button>
+                            <Button onClick={() => {
+                                router.push('https://wa.link/jyx7kr');
+                            }} className='button-home'>Contactar</Button>
                         </div>
                     </Grid.Column>
                 </Grid.Row>

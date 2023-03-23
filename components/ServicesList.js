@@ -76,7 +76,7 @@ const ServicesList = () => {
                                         <p>
                                             <i>Diseño y campañas  en las redes sociales</i>
                                         </p>
-                                        <Button className='go-service'>Ir a Redes sociales</Button>
+                                        {/* <Button className='go-service'>Ir a Redes sociales</Button> */}
                                     </div>
                                 </Grid.Column>
                                 <Grid.Column className='service-container' mobile={16} computer={6} textAlign="center" verticalAlign='middle'>
@@ -86,7 +86,7 @@ const ServicesList = () => {
                                         <p>
                                             <i>Posiciona tu web o tus anuncios en primer lugar</i>
                                         </p>
-                                        <Button className='go-service'>Ir a Marketing Digital</Button>
+                                        {/* <Button className='go-service'>Ir a Marketing Digital</Button> */}
                                     </div>
                                 </Grid.Column>
                                 <Grid.Column className='service-container' mobile={16} computer={5} textAlign="center" verticalAlign='middle'>
@@ -96,7 +96,7 @@ const ServicesList = () => {
                                         <p>
                                             <i>Diseño de campañas de mail marketing</i>
                                         </p>
-                                        <Button className='go-service'>Ir a Marketing Mailing</Button>
+                                        {/* <Button className='go-service'>Ir a Marketing Mailing</Button> */}
                                     </div>
                                 </Grid.Column>
                             </Grid.Row>
