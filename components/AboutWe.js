@@ -42,7 +42,7 @@ const AboutWe = () => {
                     </Grid.Column>
                     <Grid.Column computer={4} tablet={7} mobile={16} className="about-we__item">
                         <Header as="h5">
-                            <Icon name="chart pie" size="big" className='icon-about'/>
+                            <Icon name="star" size="big" className='icon-about'/>
                             Servicio al cliente
                         </Header>
                         <p>

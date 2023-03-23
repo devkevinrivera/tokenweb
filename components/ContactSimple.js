@@ -1,7 +1,10 @@
+import { useRouter } from 'next/router';
 import React from 'react';
 import { Button, Container, Form, Grid, Icon, Image, Input } from 'semantic-ui-react';
 
 const ContactSimple = () => {
+    const router = useRouter();
+
     return (
         <Container id="contacto-simple" className='contacto-simple'>
             <Grid columns={16}>
@@ -24,24 +27,24 @@ const ContactSimple = () => {
                                     <p className='contacto-simple__message'>
                                         Te responderemos lo antes posible con una sonrisa y una solución
                                     </p>
-                                    <p className='contacto-simple__message'>
+                                    <p className='contacto-simple__message bold'>
                                         <Icon name="mail" /> hola@tokenstudio.com
                                     </p>
-                                    <p className='contacto-simple__message'>
+                                    <p className='contacto-simple__message bold'>
                                         <Icon name="phone" /> Teléfono: 654470578
                                     </p>
-                                    <p className='contacto-simple__message'>
+                                    <p className='contacto-simple__message bold'>
                                         <Icon name="arrow circle left" /> Dirección: Plaza Musico Espi nº 10. 46019. Valencia
                                     </p>
-                                    <p className='contacto-simple__message'>
+                                    <p className='contacto-simple__message bold'>
                                         <Icon name="info" /> *Atención al cliente con cita previa.
                                     </p>
-                                    <Button className='button-black'>
+                                    <Button onClick={() => router.push('https://wa.link/jyx7kr')} className='button-black'>
                                         <Icon name="whatsapp" color='green'/>
                                         WhatsApp
                                     </Button>
                                 </Grid.Column>
-                                <Grid.Column computer={8}  only='computer'>
+                                <Grid.Column computer={8}  only='computer' verticalAlign='middle'>
                                     <Form>
                                         <Form.Field>
                                             <Input  placeholder="Nombre" />
