@@ -32,7 +32,7 @@ const TokenInfo = () => {
                     <Grid.Column computer={8} tablet={8} mobile={16}>
                         <section className='token-info__container-middle'>
                             <Header as="h2">
-                                CREAMOS PÁGINAS WEB QUE POSICIONAN EN LOS NAVEGADORES
+                                Creamos páginas web que atraen clientes
                             </Header>
                             <p>
                                 ¿Quieres mejorar la visibilidad de tu sitio web en los motores de búsqueda y atraer más tráfico a tu sitio? Nuestros servicios de posicionamiento SEO son la solución que necesitas. Ofrecemos un enfoque estratégico y personalizado para mejorar tu posicionamiento en los motores de búsqueda, utilizando técnicas de optimización on-page y off-page, además de un seguimiento y análisis constante para medir el rendimiento y ajustar la estrategia. Con nuestra ayuda, tu sitio web será más fácil de encontrar y atraerá a más clientes potenciales.
@@ -43,7 +43,7 @@ const TokenInfo = () => {
                             </div>
                         </section>
                     </Grid.Column>
-                    <Grid.Column computer={8} mobile={16}>
+                    <Grid.Column computer={8} tablet={8} mobile={16}>
                         <section className='token-info__container-middle'>
                             <Header as="h2">
                                 DESARROLLAMOS TODO TIPO DE APLICACIONES WEB A MEDIDA

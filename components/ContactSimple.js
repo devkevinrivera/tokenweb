@@ -27,16 +27,16 @@ const ContactSimple = () => {
                                     <p className='contacto-simple__message'>
                                         Te responderemos lo antes posible con una sonrisa y una solución
                                     </p>
-                                    <p className='contacto-simple__message bold'>
-                                        <Icon name="mail" /> hola@tokenstudio.com
+                                    <p className='contacto-simple__message '>
+                                        <Icon name="mail" /> <b>Email:</b> hola@tokenstudio.com
                                     </p>
-                                    <p className='contacto-simple__message bold'>
-                                        <Icon name="phone" /> Teléfono: 654470578
+                                    <p className='contacto-simple__message '>
+                                        <Icon name="phone" /> <b>Teléfono:</b> 654470578
                                     </p>
-                                    <p className='contacto-simple__message bold'>
-                                        <Icon name="arrow circle left" /> Dirección: Plaza Musico Espi nº 10. 46019. Valencia
+                                    <p className='contacto-simple__message '>
+                                        <Icon name="arrow circle left" /> <b>Dirección: </b> Plaza Musico Espi nº 10. 46019. Valencia
                                     </p>
-                                    <p className='contacto-simple__message bold'>
+                                    <p className='contacto-simple__message '>
                                         <Icon name="info" /> *Atención al cliente con cita previa.
                                     </p>
                                     <Button onClick={() => router.push('https://wa.link/jyx7kr')} className='button-black'>

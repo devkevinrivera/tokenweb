@@ -7,6 +7,7 @@
         font-size: 32px !important;
         margin-right: 0px !important;
         padding-right: 0px !important;
+        margin: 12px 0px !important;
 
         .column {
             padding-right: 0px !important;
@@ -17,7 +18,7 @@
         color: #3C3C3C !important;
 
         @include downBreakpoint($breakpoint-up-sm) {
-            font-size: 3.2em !important;
+            font-size: 30px !important;
         }
     }
 }

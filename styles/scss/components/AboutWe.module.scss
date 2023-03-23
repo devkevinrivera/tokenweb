@@ -26,6 +26,9 @@
             gap: 4px;
             flex-wrap: wrap !important;
         }
+        @include downBreakpoint($breakpoint-up-sm) {
+            padding: 0 1.2rem !important;
+        }
     }
     i {
         color: #d5f83a!important;

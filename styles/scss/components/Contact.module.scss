@@ -1,4 +1,7 @@
 .contacto-simple {
+    @include downBreakpoint($breakpoint-up-sm) {
+        padding: 3rem 1rem !important;
+    }
     &__container {
         height: 560px;
         border-radius: 4px;
@@ -18,12 +21,14 @@
         h4 {
             text-align: left !important;
         }
-
+        @include downBreakpoint($breakpoint-up-sm) {
+            font-size: 16px !important;
+        }
         span {
             margin-bottom: 3rem !important;
         }
-         @include downBreakpoint($breakpoint-up-sm) {
-            font-size: 22px !important;
+        b {
+            margin-right: 3px;
         }
     }
     &__linemessage {
