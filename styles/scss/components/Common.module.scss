@@ -48,10 +48,10 @@
     margin: 0px !important;
     margin-bottom: 2rem !important;
     background-color: #F1F2F3;
-    height: 10rem !important;
+    min-height: 11rem !important;
     box-shadow: 0 1px 4px #ffffff26 !important;
     border-radius: 4px;
-
+    padding-bottom: 1rem !important;
     &__description {
          padding: 0px !important;
          color: black;

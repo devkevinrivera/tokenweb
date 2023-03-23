@@ -43,3 +43,26 @@ export const VENTAJAS_DISEÑO_ECOMMERCE = [
             description: 'una tienda online te permite personalizar la experiencia de compra de tus clientes con una navegación sencilla e intuitiva, opciones de pago seguras y una atención al cliente rápida y efectiva. Todo esto puede mejorar la fidelidad y lealtad de tus clientes hacia tu marca.'
         }
 ]
+
+export const DESARROLLO_WEB_MEDIDA = [
+        {
+            icon: 'mobile',
+            title: 'DESARROLLO DE APPS',
+            description: 'Ofrecemos soluciones de diseño de aplicaciones móviles personalizadas. Desde la creación de aplicaciones nativas hasta la integración con sistemas empresariales existentes, estamos aquí para ayudarte. '
+        },
+        {
+            icon: 'battery full',
+            title: 'MANTENIMIENTO WEB',
+            description: 'Ofrecemos servicios de mantenimiento web para garantizar que tu sitio web esté actualizado, seguro y funcione sin problemas. Nuestro equipo de expertos se asegurará de que tu sitio web esté en óptimas condiciones. '
+        },
+        {
+            icon: 'gitlab',
+            title: 'APLICACIONES WEB, GESTORES DE DATOS, Y MAS...',
+            description: 'Desarrollamos aplicaciones a medida para satisfacer las necesidades específicas de tu negocio. Desde la planificación hasta el lanzamiento, nuestro equipo de expertos trabajará contigo para crear una solución personalizada que se adapte a tus necesidades. '
+        },
+        {
+            icon: 'file code outline',
+            title: 'DESARROLLO DE SMART CONTRACTS',
+            description: 'Desarrollamos smart contracts personalizados para satisfacer las necesidades de tu negocio y automatizar procesos empresariales complejos. Desde la creación hasta la implementación. Aprovecha todo el potencial de la tecnología blockchain'
+        }
+]
