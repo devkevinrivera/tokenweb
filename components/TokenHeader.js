@@ -15,7 +15,7 @@ const TokenHeader = () => {
                 <Grid.Row>
                     <Grid.Column textAlign='right' computer={16}  only='computer'>
                         <a href="mailto:hola@tokenstudio.eu" className='mini-link'>
-                            <Icon name="mail" color='orange'/>
+                            <Icon  name="mail" color='orange'/>
                             hola@tokenstudio.eu
                         </a>
                         <a href="https://wa.link/jyx7kr" className='mini-link'>
@@ -26,7 +26,9 @@ const TokenHeader = () => {
                 </Grid.Row>
                 <Grid.Row>
                     <Grid.Column mobile={13} computer={3}  verticalAlign='middle' >
-                        <Image src="/logo.svg" alt="Token Logo"/>
+                        <Image onClick={() => {
+                            router.push("/")
+                        }} src="/logo.svg" alt="Token Logo" className='logo-web'/>
                     </Grid.Column>
                     <Grid.Column computer={9} only="computer" verticalAlign='middle' >
                         <nav className='navigation-desktop'>
