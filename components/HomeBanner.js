@@ -11,7 +11,7 @@ const HomeBanner = () => {
                             <span>DISEÑANDO EL FUTURO:</span> AGENCIA DE DISEÑO WEB QUE TRANSFORMA TU PRESENCIA EN LÍNEA
                         </Header>
                         <Header as="h3">
-                            Diseño web de vanguardia para llevar tu negocio al siguiente nivel
+                            No dejes tu primera impresión en manos de la suerte
                         </Header>
                         <Button className='button-home'>
                             <Icon name="terminal" />

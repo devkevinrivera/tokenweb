@@ -31,7 +31,7 @@ const TokenServices = () => {
                         </div>
                     </Grid.Column>
                     <Grid.Column only='computer' computer={6} className="mobile-center">
-                        <Image src="/mobile.svg" />
+                        <Image src="/mobile-clean.svg" />
                     </Grid.Column>
                     <Grid.Column mobile={16} tablet={8} computer={5} className='al-center'>
                         <div className='yellow box'>
