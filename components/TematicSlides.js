@@ -51,7 +51,7 @@ const TematicSlides = () => {
                     <Grid.Row className='space'>
                         {
                             items.map((option) => (
-                                    <Grid.Column className={`tematic-slides__${option.theme}`} computer={2}>
+                                    <Grid.Column className={`tematic-slides__${option.theme}`} computer={2} mobile={8}>
                                         <TematicCard item={option} />
                                     </Grid.Column>
                             ))

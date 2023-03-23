@@ -7,7 +7,7 @@ const OfficeWork = () => {
             <Container>
                 <Grid>
                     <Grid.Row>
-                        <Grid.Column computer={8}>
+                        <Grid.Column computer={8} mobile={16}>
                             <h3>COSAS QUE TE PUEDEN INTERESAR SOBRE TOKEN DISEÑO WEB EN ESPAÑA</h3>
                             <Divider />
                             <h4>Algunos detalles sobre nosotros que te pueden interesar.</h4>
@@ -20,7 +20,7 @@ const OfficeWork = () => {
                                 En Token te ofrecemos servicios personalizados para la creación, desarrollo, programación y mantenimiento de tu web. Además si quieres te ofrecemos Servicios de alojamiento y mantenimiento con las mejores condiciones posibles.
                             </p>
                         </Grid.Column>
-                        <Grid.Column computer={8} verticalAlign="middle">
+                        <Grid.Column computer={8} verticalAlign="middle" mobile={16}>
                             <Image src="/designweb.jpg"  fluid/>
                         </Grid.Column>
                     </Grid.Row>

@@ -13,7 +13,7 @@ const CardProject = (item) => {
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row className='card-project__center'>
-                        <Grid.Column computer={7}>
+                        <Grid.Column computer={7} mobile={16}>
                             <Card item={{
                                 background: 'http://localhost:3000/archicercle.png',
                                 title: 'Archicercle',
@@ -22,21 +22,21 @@ const CardProject = (item) => {
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row className='card-project__space'>
-                        <Grid.Column className='card-project__padding' computer={5}>
+                        <Grid.Column className='card-project__padding' computer={5} mobile={16}>
                             <Card item={{
                                 background: 'http://localhost:3000/justlasercuteu.png',
                                 title: 'JustlaserCut',
                                 text: ''
                             }} />
                         </Grid.Column>
-                        <Grid.Column computer={5}>
+                        <Grid.Column computer={5} mobile={16}>
                             <Card item={{
                                 background: 'http://localhost:3000/cosastudio.png',
                                 title: 'CosasStudio',
                                 text: ''
                             }} />
                         </Grid.Column>
-                        <Grid.Column computer={5}>
+                        <Grid.Column computer={5} mobile={16}>
                             <Card item={{
                                 background: 'http://localhost:3000/interzoo.png',
                                 title: 'Interzoo',

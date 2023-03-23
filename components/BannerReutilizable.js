@@ -10,7 +10,7 @@ const BannerReutilizable = ({ title = '', subtitle = '', ctaLink = '', ctaText =
             <Container className='banner-reutilizable__container' style={{ backgroundImage:  `url(${background})` }}>
                 <Grid columns={16}>
                     <Grid.Row>
-                        <Grid.Column computer={16}>
+                        <Grid.Column computer={16} mobile={16}>
                             <Header className='banner-reutilizable__title' as="h1">{title}</Header>
                             <Header className='banner-reutilizable__subtitle' as="h2">{subtitle}</Header>
                             <Button className='button-presupuesto' onClick={ev => router.push(ctaLink)}>{ctaText}</Button>

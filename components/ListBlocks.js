@@ -9,16 +9,16 @@ const ListBlocks = ({ options, image, reverse = false }) => {
             <Container co>
                 <Grid columns={16}>
                     <Grid.Row>
-                        <Grid.Column computer={4} verticalAlign="middle">
+                        <Grid.Column computer={4} only="computer" verticalAlign="middle">
                             <Image src="/reporte-anual.png" />
                         </Grid.Column>
-                        <Grid.Column computer={12}>
+                        <Grid.Column computer={12} mobile={16}>
                             <Grid columns={16}>
                                 <Grid.Row>
                                     {
                                         options.map((item) => (
                                             (
-                                                <Grid.Column className='list-blocks__content' computer={8}>
+                                                <Grid.Column className='list-blocks__content' computer={8} mobile={16}>
                                                     <ItemBox
                                                         item={item}
                                                     />
