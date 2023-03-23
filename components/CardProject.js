@@ -68,7 +68,9 @@ const Card = (item) => {
                     <Button onClick={() => {
                         router.push(webUri)
                     }} className='button-ghost'>Ver Web</Button>
-                    <Button  className='button-primary'>Comprar</Button>
+                    <Button onClick={() => {
+                        router.push('#contacto-simple')
+                    }}  className='button-primary'>Comprar</Button>
                 </Grid.Column>
             </Grid.Row>
         </Grid>

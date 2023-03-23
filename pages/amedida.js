@@ -54,36 +54,36 @@ const Web = () => {
 
     const items = [{
         theme: 'eight',
-        url: '001-diseno-de-respuesta.png',
-        titulo: 'Web responsive'
+        url: 'node.png',
+        titulo: 'NodeJS'
     },{
         theme: 'two',
-        url: '002-web-analytics.png',
-        titulo: 'Autoadministrable'
+        url: 'react.png',
+        titulo: 'ReactJS' //falta
     },{
         theme: 'thre',
-        url: '001-requisitos.png',
-        titulo: 'Adaptada a la normativa legal'
+        url: 'mongodb.svg',
+        titulo: 'MongoDB'
     },{
         theme: 'four',
-        url: '002-posicionamiento-en-buscadores.png',
-        titulo: 'Optimizada para SEO'
+        url: 'html.png',
+        titulo: 'HTML'
     },{
         theme: 'five',
         url: '004-formacion.png',
-        titulo: 'Formación'
+        titulo: 'SASS'
     },{
         theme: 'six',
-        url: '005-soporte-tecnico.png',
-        titulo: 'Soporte'
+        url: 'swift.png',
+        titulo: 'Swift'
     },{
         theme: 'eight',
-        url: '006-servidor-dedicado.png',
-        titulo: 'Hosting profesional'
+        url: 'phpicon.png',
+        titulo: 'PHP'
     },{
         theme: 'eight',
-        url: '007-revision-del-cliente.png',
-        titulo: 'Clientes satisfechos'
+        url: 'ymas.png',
+        titulo: 'Y MAS'
     },];
     
     return (
