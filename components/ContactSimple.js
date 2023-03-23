@@ -9,9 +9,32 @@ const ContactSimple = () => {
                     <Grid.Column computer={16} className='contacto-simple__container'>
                         <Grid columns={16}>
                             <Grid.Row>
-                                <Grid.Column computer={8} tablet={16} mobile={16} className='contacto-simple__message-container'>
+                                <Grid.Column computer={8} tablet={16} mobile={16}  className='contacto-simple__message-container'>
                                     <p className='contacto-simple__message'>
-                                    Haz que tu negocio brille en línea con nuestros servicios de diseño web profesionales. ¡Te ayudaremos a destacar entre la competencia y atraer más clientes!
+                                        ¿Tienes ganas de hablar?
+                                    </p>
+                                    <p className='contacto-simple__message'>
+                                        ¿Tienes alguna idea o proyecto que quieras hacer realidad con tu proyecto online?
+                                        ¿Quieres saber más sobre nuestros servicios y productos?¿O simplemente quieres saludarnos y decirnos lo mucho que te gusta el desarrollo de software?
+                                    </p>
+                                    <p className='contacto-simple__message'>
+                                        Sea lo que sea, estamos encantados de escucharte y ayudarte en lo que podamos. Puedes contactarnos por correo electrónico a hola@tokenstudio.eu o
+                                        rellenar el siguiente formulario con tus datos y tu mensaje.
+                                    </p>
+                                    <p className='contacto-simple__message'>
+                                        Te responderemos lo antes posible con una sonrisa y una solución
+                                    </p>
+                                    <p className='contacto-simple__message'>
+                                        <Icon name="mail" /> hola@tokenstudio.com
+                                    </p>
+                                    <p className='contacto-simple__message'>
+                                        <Icon name="phone" /> Teléfono: 654470578
+                                    </p>
+                                    <p className='contacto-simple__message'>
+                                        <Icon name="arrow circle left" /> Dirección: Plaza Musico Espi nº 10. 46019. Valencia
+                                    </p>
+                                    <p className='contacto-simple__message'>
+                                        <Icon name="info" /> *Atención al cliente con cita previa.
                                     </p>
                                     <Button className='button-black'>
                                         <Icon name="whatsapp" color='green'/>

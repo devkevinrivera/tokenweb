@@ -3,6 +3,10 @@ import { Button, Container, Grid, Header, Image } from 'semantic-ui-react';
 
 const TematicSlides = () => {
     const items = [{
+        theme: 'eight',
+        url: 'legal.png',
+        titulo: 'ADAPTABLE A DISPOSITIVOS MÓVILES'
+    },{
         theme: 'two',
         url: 'admin.png',
         titulo: '100% AUTOGESTIONALBE'
@@ -26,7 +30,12 @@ const TematicSlides = () => {
         theme: 'eight',
         url: 'legal.png',
         titulo: 'ADAPTABLE A DISPOSITIVOS MÓVILES'
-    },];
+    },{
+        theme: 'eight',
+        url: 'legal.png',
+        titulo: 'ADAPTABLE A DISPOSITIVOS MÓVILES'
+        },];
+    
     return (
         <div className='tematic-slides'>
             <Container>

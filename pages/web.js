@@ -19,6 +19,7 @@ import ListBlocks from '../components/ListBlocks';
 import { VENTAJAS_DISEÑO_WEB } from '../constants/landingweb';
 import CardProject from '../components/CardProject';
 import TematicSlides from '../components/TematicSlides';
+import OfficeWork from '../components/OfficeWork';
 
 const Web = () => {
     const showMenu = useSelector(state => state.app.showMenu);
@@ -52,6 +53,7 @@ const Web = () => {
                 reverse={false}
             />
             <CardProject />
+            <OfficeWork />
             <TematicSlides />
             <ContactSimple />
             <TokenFooter />
