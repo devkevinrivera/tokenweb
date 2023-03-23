@@ -77,3 +77,15 @@
         padding: 16px 36px !important;
         font-size: 12px !important;
 }
+
+.go-service {
+        background: transparent !important;
+        color: white !important;
+        border: 1px solid white !important;
+        cursor: pointer !important;
+        &:hover {
+            background: white !important;
+            color: black !important;
+            transition: background color 1s ease-in-out ;
+        }
+}
