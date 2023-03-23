@@ -1,13 +1,15 @@
 .token-menu {
-    position: fixed;
+    position: fixed !important;
     width: 100vw !important;
-    height: 100vw !important;
     position: fixed;
     background-color: black;
-    z-index: 1;
-    padding-left: 10rem !important;
-    padding-top: 4rem !important;
-    padding: 2rem;
+    font-size: 16px;
+    height: 100vh !important;
+    margin: 0px !important;
+    z-index: 1000000000000000000000000;
+    padding: 4rem 2rem 6rem 2rem !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
     font-size: 5rem;
     overflow-y: hidden;
     
@@ -17,7 +19,7 @@
 
     &__item {
         font-family: 'Anton', cursive;
-        font-size: 3.2rem;
+        font-size: 2.2rem;
     }
     &__item-primary {
         font-family: 'Rubik Vinyl', cursive;

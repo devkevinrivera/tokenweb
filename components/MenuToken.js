@@ -2,16 +2,21 @@ import React from 'react';
 import { Container, Grid, Icon, Image } from 'semantic-ui-react';
 import { useDispatch } from 'react-redux';
 import { handlerShowMenu } from '../redux/slices/config';
+import { useRouter } from 'next/router';
 
 const MenuToken = () => {
     const dispatch = useDispatch();
+    const router = useRouter();
 
     return (
-        <Container className='token-menu'>
+        <div className='token-menu'>
             <Grid columns={16}>
                 <Grid.Row>
                     <Grid.Column computer={8}>
-                        <Image src="/logo.svg" />
+                        <Image src="/logo.svg" onClick={() => {
+                            router.push('/');
+                            dispatch(handlerShowMenu(false));
+                        }} />
                     </Grid.Column>
                     <Grid.Column computer={8} textAlign="right">
                         <Icon name="close" onClick={() => dispatch(handlerShowMenu(false))}/>
@@ -19,8 +24,11 @@ const MenuToken = () => {
                 </Grid.Row>
                 <Grid.Row>
                     <Grid.Column computer={16}>
-                        <div className="token-menu__activator">
-                            <p className='token-menu__item itemlink'>SERVICIOS</p>
+                        <div onClick={() => {
+                            router.push('/productos');
+                            dispatch(handlerShowMenu(false));
+                        }} className="token-menu__activator">
+                            <p  className='token-menu__item itemlink'>SERVICIOS</p>
                             <p className='token-menu__item itemhover'>
                                 <span className='token-menu__item-primary'>SERVICIOS</span>
                                 <span className='yellow token-menu__item-secondary'> SERVICIOS</span>
@@ -65,7 +73,7 @@ const MenuToken = () => {
                     </Grid.Column>
                 </Grid.Row>
             </Grid>
-        </Container>
+        </div>
     );
 };
 
