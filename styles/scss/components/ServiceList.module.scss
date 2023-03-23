@@ -56,10 +56,21 @@
     border-radius: 8px;
     padding: 50px !important;
     text-align: center;
-    background-color: black !important;
+    background-color: rgba(0, 0, 0, 0.91) !important;
     -webkit-box-shadow: 1px 3px 61px 8px rgba(1, 110, 34, 1);
-        -moz-box-shadow: 1px 3px 61px 8px rgba(1, 110, 34, 1);
-        box-shadow: 1px 3px 61px 8px rgba(1, 110, 34, 1);
+    -moz-box-shadow: 1px 3px 61px 8px rgba(1, 110, 34, 1);
+    box-shadow: 1px 3px 61px 8px rgba(1, 110, 34, 1);
+    @include downBreakpoint($breakpoint-up-sm) {
+        box-shadow: none;
+        p {
+            text-align: left;
+            font-size: 16px;
+            font-weight: normal;
+            color: #777777;
+        }
+        font-size: 20px !important;
+        text-align: center !important;
+    }
 }
 
 .center {

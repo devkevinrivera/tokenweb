@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 import React from 'react';
-import { Container, Grid, Header, Image } from 'semantic-ui-react';
+import { Button, Container, Grid, Header, Image } from 'semantic-ui-react';
 
 const ServicesList = () => {
     const router = useRouter();
@@ -31,31 +31,34 @@ const ServicesList = () => {
                                         DESARROLLAMOS TODO TIPO DE APLICACIONES:
                                     </Header>
                                 </Grid.Column>
-                                <Grid.Column  className='service-container' computer={5} textAlign="center" verticalAlign='middle'>
-                                    <div onClick={ev => router.push('/web')}>
+                                <Grid.Column  className='service-container' computer={5} mobile={16} textAlign="center" verticalAlign='middle'>
+                                    <div>
                                         <Image className='image-service' src="/Web.svg" />
                                         <h4>WEB Y BLOG</h4>
                                         <p>
                                             <i>Diseño y programación de web y blog</i>
                                         </p>
+                                        <Button onClick={ev => router.push('/web')} className='go-service'>Ir a Diseño Web</Button>
                                     </div>
                                 </Grid.Column>
-                                <Grid.Column className='service-container' computer={6} textAlign="center" verticalAlign='middle'>
+                                <Grid.Column className='service-container' computer={6} mobile={16} textAlign="center" verticalAlign='middle'>
                                     <div onClick={ev => router.push('/ecommerce')}>
                                         <Image className='image-service' src="/Ecommerce.svg" />
                                         <h4>TIENDA ONLINE</h4>
                                         <p>
                                             <i>Diseño y programación de tienda online</i>
                                         </p>
+                                        <Button onClick={ev => router.push('/web')} className='go-service'>Ir a Diseño Ecommerce</Button>
                                     </div>
                                 </Grid.Column>
-                                <Grid.Column className='service-container' computer={5} textAlign="center" verticalAlign='middle'>
+                                <Grid.Column className='service-container' computer={5} mobile={16} textAlign="center" verticalAlign='middle'>
                                     <div onClick={ev => router.push('/amedida')}>
                                         <Image className='image-service' src="/Mantenimiento.svg" />
                                         <h4>DESARROLLO A MEDIDA</h4>
                                         <p>
                                             <i>Diseño y programación a medida</i>
                                         </p>
+                                        <Button onClick={ev => router.push('/web')} className='go-service'>Ir a Diseño a medida</Button>
                                     </div>
                                 </Grid.Column>
                                
@@ -66,31 +69,34 @@ const ServicesList = () => {
                                         TAMBIÉN SABEMOS DARLE VISIBILIDAD:
                                     </Header>
                                 </Grid.Column>
-                                <Grid.Column className='service-container' computer={5} textAlign="center" verticalAlign='middle'>
+                                <Grid.Column className='service-container' mobile={16} computer={5} textAlign="center" verticalAlign='middle'>
                                     <div onClick={ev => router.push('/social')}>
                                         <Image className='image-service' src="/social.svg" />
                                         <h4>REDES SOCIALES</h4>
                                         <p>
                                             <i>Diseño y campañas  en las redes sociales</i>
                                         </p>
+                                        <Button className='go-service'>Ir a Redes sociales</Button>
                                     </div>
                                 </Grid.Column>
-                                <Grid.Column className='service-container' computer={6} textAlign="center" verticalAlign='middle'>
+                                <Grid.Column className='service-container' mobile={16} computer={6} textAlign="center" verticalAlign='middle'>
                                     <div onClick={ev => router.push('/adwords')}>
                                         <Image className='image-service' src="/adwords.svg" />
                                         <h4>ADWORDS Y SEO</h4>
                                         <p>
                                             <i>Posiciona tu web o tus anuncios en primer lugar</i>
                                         </p>
+                                        <Button className='go-service'>Ir a Marketing Digital</Button>
                                     </div>
                                 </Grid.Column>
-                                <Grid.Column className='service-container' computer={5} textAlign="center" verticalAlign='middle'>
+                                <Grid.Column className='service-container' mobile={16} computer={5} textAlign="center" verticalAlign='middle'>
                                     <div onClick={ev => router.push('/mailing')}>
                                         <Image className='image-service' src="/mailing.svg" />
                                         <h4>MAIL MARKETING</h4>
                                         <p>
                                             <i>Diseño de campañas de mail marketing</i>
                                         </p>
+                                        <Button className='go-service'>Ir a Marketing Mailing</Button>
                                     </div>
                                 </Grid.Column>
                             </Grid.Row>
