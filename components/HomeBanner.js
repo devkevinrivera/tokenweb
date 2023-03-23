@@ -1,7 +1,9 @@
+import { useRouter } from 'next/router';
 import React from 'react';
 import { Button, Container, Grid, Header, Icon } from 'semantic-ui-react';
 
 const HomeBanner = () => {
+    const router = useRouter();
     return (
         <Container className='home-banner'>
             <Grid columns={16}>
@@ -13,7 +15,7 @@ const HomeBanner = () => {
                         <Header as="h3">
                             No dejes tu primera impresión en manos de la suerte
                         </Header>
-                        <Button className='button-home'>
+                        <Button onClick={() => router.push('#contacto-simple')} className='button-home'>
                             <Icon name="terminal" />
                             Me interesa
                         </Button>

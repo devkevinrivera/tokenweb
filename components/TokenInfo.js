@@ -9,15 +9,22 @@ const TokenInfo = () => {
                     <Grid.Column computer={16}>
                         <section className='token-info__container '>
                             <Header as="h2">
-                                DIFERÉNCIATE DEL RESTO
+                                Conecta con los clientes fácilmente
                             </Header>
                             <p>
-                            Nuestra agencia de diseño web ofrece un servicio completo y personalizado para tu negocio. Ofrecemos diseño atractivo y moderno, optimización para motores de búsqueda, y una interfaz fácil de usar. Además, brindamos una atención al cliente excepcional para garantizar que tu sitio web sea exactamente lo que necesitas para destacar entre la competencia y aumentar tu presencia en línea.
+                                Mantén a los clientes al tanto de las últimas novedades con publicaciones, ofertas, mensajes directos y mucho más.
+                            </p>
+                            <p>
+                                Si estás buscando una manera efectiva de atraer nuevos clientes a tu negocio, es fundamental que tengas una página web de calidad.
+                                Hoy en día, la presencia en línea es esencial para cualquier empresa que desee crecer y tener éxito.
+                                <br/><br/>
+                                La razón principal por la que tener una web de calidad es importante para atraer clientes es porque les permite conocer más acerca de tu negocio. Al tener un sitio web atractivo y fácil de navegar, los clientes pueden aprender sobre tus productos o servicios, ver fotos o videos de tus productos, y leer opiniones de otros clientes satisfechos.
+                                Esto les da una idea clara de lo que puedes ofrecerles y los incentiva a hacer negocios contigo.
                             </p>
 
-                            <div className='token-info__photo'>
-                                <Image src="/middle-mobile.svg" alt="Technologies" />
-                            </div>
+                            {/* <div className='token-info__photo'>
+                                <Image src="/helpyou.svg" alt="Technologies" />
+                            </div> */}
                         </section>
                     </Grid.Column>
                 </Grid.Row>

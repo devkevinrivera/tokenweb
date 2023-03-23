@@ -1,6 +1,7 @@
 .about-we {
     color: #000;
-    padding: 14rem 0rem 8rem 0rem !important;
+    padding: 6rem 0rem 6rem 0rem !important;
+    
     &__item {
         img {
             width: 24px;
@@ -10,15 +11,16 @@
         padding: 2rem .75rem;
         background-color: #f1f2f3;
         h5 {
-            font-size: 20px !important;
+            font-weight: bold;
+            font-size: 16px !important;
         }
     }
     .wrap {
         display: flex !important;
         justify-content: space-between !important;
+        padding-top: 3rem !important;
         gap: 10px;
         flex-wrap: nowrap !important;
-        margin-top: 7rem;
 
         @include downBreakpoint($breakpoint-up-lg) {
             gap: 4px;
@@ -26,6 +28,6 @@
         }
     }
     i {
-        color: #16e22a!important;
+        color: #d5f83a!important;
     }
 }

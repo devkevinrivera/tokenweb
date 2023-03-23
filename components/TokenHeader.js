@@ -3,9 +3,11 @@ import { Button, Container, Grid, Icon, Image } from 'semantic-ui-react';
 import { useDispatch } from 'react-redux';
 import { handlerShowMenu } from '../redux/slices/config';
 import Link from 'next/link'
+import { useRouter } from 'next/router';
 
 const TokenHeader = () => {
     const dispatch = useDispatch();
+    const router = useRouter();
 
     return (
         <Container className='token-header'>
@@ -26,7 +28,7 @@ const TokenHeader = () => {
                     <Grid.Column mobile={13} computer={3}  verticalAlign='middle' >
                         <Image src="/logo.svg" alt="Token Logo"/>
                     </Grid.Column>
-                    <Grid.Column computer={10} only="computer" verticalAlign='middle' >
+                    <Grid.Column computer={9} only="computer" verticalAlign='middle' >
                         <nav className='navigation-desktop'>
                             <Link href="/">Inicio</Link>
                             <Link href="/productos">Servicios</Link>
@@ -35,11 +37,15 @@ const TokenHeader = () => {
                             
                         </nav>
                     </Grid.Column>
-                    <Grid.Column computer={3} verticalAlign="middle" only='computer'>
-                        {/* <Image onClick={() => dispatch(handlerShowMenu(true))} src="/menu.svg" alt="Menu"/> */}
-                        <Button className='button-presupuesto'>Pide tu presupuesto</Button>
+                    <Grid.Column computer={4} verticalAlign="middle" only='computer'>
+                        <Button onClick={() => {
+                            router.push("https://wa.link/jyx7kr")
+                        }} className='button-presupuesto'>
+                            <Icon name="calculator" />
+                            Pide tu presupuesto
+                        </Button>
                     </Grid.Column>
-                    <Grid.Column computer={3} verticalAlign="middle" className='only-menu-mobile'>
+                    <Grid.Column computer={4} verticalAlign="middle" className='only-menu-mobile'>
                         <Image onClick={() => dispatch(handlerShowMenu(true))} src="/menu.svg" alt="Menu"/>
                     </Grid.Column>
                 </Grid.Row>

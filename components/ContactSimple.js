@@ -3,7 +3,7 @@ import { Button, Container, Form, Grid, Icon, Image, Input } from 'semantic-ui-r
 
 const ContactSimple = () => {
     return (
-        <Container className='contacto-simple'>
+        <Container id="contacto-simple" className='contacto-simple'>
             <Grid columns={16}>
                 <Grid.Row>
                     <Grid.Column computer={16} className='contacto-simple__container'>

@@ -15,14 +15,20 @@
 }
 
 .button-presupuesto {
-        color: #000 !important;
+        color: #ffffff !important;
         border-color: #16E22A !important;
         background-color: #16E22A !important;
+        transition: background-color .5s ease;
         box-shadow: none !important;
         font-weight: bold !important;
         line-height: normal !important;
-        padding: 6px 36px !important;
-        font-size: 12px !important;
+        font-size: 16px !important;
+        padding: .8rem 2.5rem !important;
+
+        &:hover {
+            background-color: #15701e !important;
+            transition: background-color .2s ease;
+        }
 }
 
 .button-presupuesto-big {

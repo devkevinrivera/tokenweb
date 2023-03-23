@@ -14,8 +14,8 @@ const AboutWe = () => {
                 </Grid.Row>
                 <Grid.Row className='wrap'>
                     <Grid.Column computer={4} tablet={7} mobile={16} className="about-we__item">
-                        <Icon name="group" size="big" className='icon-about' />
                         <Header as="h5">
+                            <Icon name="star" size="big" className='icon-about' />
                             Diseño atractivo y moderno
                         </Header>
                         <p>
@@ -23,8 +23,8 @@ const AboutWe = () => {
                         </p>
                     </Grid.Column>
                     <Grid.Column computer={4} tablet={7} mobile={16} className="about-we__item">
-                        <Icon name="certificate" size='big' className='icon-about'/>
                         <Header as="h5">
+                            <Icon name="star" size='big' className='icon-about'/>
                             Optimización para motores de búsqueda
                         </Header>
                         <p>
@@ -32,8 +32,8 @@ const AboutWe = () => {
                         </p>
                     </Grid.Column>
                     <Grid.Column computer={4} tablet={7} mobile={16} className="about-we__item">
-                        <Icon name="world" size="big" className='icon-about'/>
                         <Header as="h5">
+                            <Icon name="star" size="big" className='icon-about'/>
                             Experiencia de usuario
                         </Header>
                         <p>
@@ -41,8 +41,8 @@ const AboutWe = () => {
                         </p>
                     </Grid.Column>
                     <Grid.Column computer={4} tablet={7} mobile={16} className="about-we__item">
-                        <Icon name="chart pie" size="big" className='icon-about'/>
                         <Header as="h5">
+                            <Icon name="chart pie" size="big" className='icon-about'/>
                             Servicio al cliente
                         </Header>
                         <p>
