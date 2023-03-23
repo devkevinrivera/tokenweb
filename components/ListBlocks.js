@@ -50,7 +50,7 @@ const ItemBox = ({item}) => {
                     <Icon className="item-box__icon" name={icon} size="large"/>
                 </Grid.Column>
                 <Grid.Column computer={14}>
-                    <h4 className="item-box__title">{title}</h4>
+                    <h4 className="item-box__title">{title.toUpperCase()}</h4>
                 </Grid.Column>
             </Grid.Row>
             <Grid.Row className="item-box__description__container">

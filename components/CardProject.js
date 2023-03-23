@@ -1,48 +1,40 @@
+import { useRouter } from 'next/router';
 import React from 'react';
 import { Button, Container, Grid, Header } from 'semantic-ui-react';
 
-const CardProject = (item) => {
-    const { title = '', image = '' } = item
+const CardProject = ({ category , items = [], projects  }) => {
     return (
         <div className='card-project'>
             <Container>
                 <Grid columns={16}>
                     <Grid.Row>
                         <Grid.Column computer={16}>
-                            <Header as="h2" className='card-project__title'>NUESTROS ÚLTIMOS DISEÑOS DE PÁGINAS WEB</Header>
+                            <Header as="h2" className='card-project__title'>{ category }</Header>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row className='card-project__center'>
                         <Grid.Column computer={7} mobile={16}>
                             <Card item={{
-                                background: 'http://localhost:3000/archicercle.png',
-                                title: 'Archicercle',
-                                text: ''
+                                background: projects?.main.background,
+                                title: projects?.main.title,
+                                text: '',
+                                webUri: projects?.main.webUri
                             }}/>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row className='card-project__space'>
-                        <Grid.Column className='card-project__padding' computer={5} mobile={16}>
-                            <Card item={{
-                                background: 'http://localhost:3000/justlasercuteu.png',
-                                title: 'JustlaserCut',
-                                text: ''
-                            }} />
-                        </Grid.Column>
-                        <Grid.Column computer={5} mobile={16}>
-                            <Card item={{
-                                background: 'http://localhost:3000/cosastudio.png',
-                                title: 'CosasStudio',
-                                text: ''
-                            }} />
-                        </Grid.Column>
-                        <Grid.Column computer={5} mobile={16}>
-                            <Card item={{
-                                background: 'http://localhost:3000/interzoo.png',
-                                title: 'Interzoo',
-                                text: ''
-                            }} />
-                        </Grid.Column>
+                        {
+                            projects?.secondary?.map(({ background, title, text, webUri }) => (
+                                <Grid.Column className='card-project__padding' computer={5} mobile={16}>
+                                    <Card item={{
+                                        background: background,
+                                        title: title,
+                                        text: '',
+                                        webUri: webUri
+                                    }} />
+                                </Grid.Column>
+                            ))
+                        }
                     </Grid.Row>
                 </Grid>
             </Container>
@@ -55,6 +47,9 @@ const Card = (item) => {
     const url = item?.item?.background;
     const title = item?.item?.title;
     const text = item?.item?.text;
+    const webUri = item?.item?.webUri;
+    const router = useRouter();
+
     return (
         <Grid columns={16} className="item-card">
             <Grid.Row>
@@ -70,8 +65,10 @@ const Card = (item) => {
                         className="item-card__image"></div>
                 </Grid.Column>
                 <Grid.Column computer={16} textAlign="center" className="item-card__container">
-                    <Button className='button-ghost'>Ver Web</Button>
-                    <Button className='button-primary'>Comprar</Button>
+                    <Button onClick={() => {
+                        router.push(webUri)
+                    }} className='button-ghost'>Ver Web</Button>
+                    <Button  className='button-primary'>Comprar</Button>
                 </Grid.Column>
             </Grid.Row>
         </Grid>

@@ -20,3 +20,26 @@ export const VENTAJAS_DISEÑO_WEB = [
             description: 'El análisis web permite identificar las necesidades y comportamientos de los clientes, lo que ayuda a mejorar la estrategia de venta y aumentar los beneficios'
         }
 ]
+
+export const VENTAJAS_DISEÑO_ECOMMERCE = [
+        {
+            icon: 'globe',
+            title: 'Alcance global',
+            description: 'una tienda online te permite llegar a un público global y vender tus productos o servicios sin restricciones geográficas. Esto amplía tu mercado potencial y te permite llegar a más clientes en diferentes lugares del mundo.'
+        },
+        {
+            icon: 'bullhorn',
+            title: 'Disponibilidad 24/7',
+            description: 'a diferencia de una tienda física, una tienda online está disponible las 24 horas del día, los 7 días de la semana. Esto significa que tus clientes pueden comprar tus productos en cualquier momento, incluso cuando tu tienda está cerrada.'
+        },
+        {
+            icon: 'clock outline',
+            title: 'Costos reducidos',
+            description: 'tener una tienda online puede ser más económico que una tienda física ya que no requiere gastos como el alquiler de un local, servicios públicos, mantenimiento, etc. Además, muchas herramientas de ecommerce ofrecen planes económicos para comenzar a vender en línea.'
+        },
+        {
+            icon: 'chart bar',
+            title: 'Personalización',
+            description: 'una tienda online te permite personalizar la experiencia de compra de tus clientes con una navegación sencilla e intuitiva, opciones de pago seguras y una atención al cliente rápida y efectiva. Todo esto puede mejorar la fidelidad y lealtad de tus clientes hacia tu marca.'
+        }
+]

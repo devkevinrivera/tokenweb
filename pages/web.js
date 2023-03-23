@@ -25,6 +25,67 @@ const Web = () => {
     const showMenu = useSelector(state => state.app.showMenu);
     const listaVentajas = VENTAJAS_DISEÑO_WEB;
 
+    const projects = {
+        main: {
+            background: 'http://localhost:3000/archicercle.png',
+            title: 'Archicercle',
+            text: '',
+            webUri: 'https://archicercle.com/'
+        },
+        secondary: [
+            {
+                background: 'http://localhost:3000/justlasercuteu.png',
+                title: 'JustlaserCut',
+                text: '',
+                webUri: 'https://justlasercut.com/'
+            },{
+                background: 'http://localhost:3000/cosastudio.png',
+                title: 'CosasStudio',
+                text: '',
+                webUri: 'https://cosastudio.com/'
+            }, {
+                background: 'http://localhost:3000/interzoo.png',
+                title: 'Interzoo',
+                text: '',
+                webUri: 'https://www.interzoo.es/'
+            }
+        ]
+    };
+
+    const items = [{
+        theme: 'eight',
+        url: 'responsive.png',
+        titulo: 'ADAPTABLE A DISPOSITIVOS MÓVILES'
+    },{
+        theme: 'two',
+        url: 'admin.png',
+        titulo: '100% AUTOGESTIONALBE'
+    },{
+        theme: 'thre',
+        url: 'chrome.png',
+        titulo: 'OPTIMIZADA PARA GOOGLE'
+    },{
+        theme: 'four',
+        url: 'speed.png',
+        titulo: 'TE ENTREGAMOS LA WEB EN 2 SEMANAS'
+    },{
+        theme: 'five',
+        url: 'legal.png',
+        titulo: 'ADAPTADA A NORMATIVA LEGAL'
+    },{
+        theme: 'six',
+        url: 'disenador-grafico.png',
+        titulo: 'DISEÑO GRAFÍCO ORIGINAL'
+    },{
+        theme: 'eight',
+        url: 'web-analytics.png',
+        titulo: 'ALTA EN GOOGLE ANALYTICS'
+    },{
+        theme: 'eight',
+        url: 'adwords.png',
+        titulo: 'ESTRATEGIA DE ADWORDS'
+    },];
+    
     return (
         <section className='container-tokenweb'>
             <Head>
@@ -52,9 +113,9 @@ const Web = () => {
                 image={''}
                 reverse={false}
             />
-            <CardProject />
+            <CardProject projects={projects} category={"NUESTROS ÚLTIMOS DISEÑOS DE PÁGINAS WEB"} />
             <OfficeWork />
-            <TematicSlides />
+            <TematicSlides items={items}/>
             <ContactSimple />
             <TokenFooter />
         </section>
