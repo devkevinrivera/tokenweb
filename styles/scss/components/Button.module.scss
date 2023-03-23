@@ -4,6 +4,11 @@
     font-weight: 400 !important;
     background-color: #16E22A !important;
     padding: 16px 30px !important;
+
+    @include downBreakpoint($breakpoint-up-sm) {
+        padding: 12px 22px !important;
+        font-size: 16px !important;
+    }
 }
 
 .button-black {

@@ -9,9 +9,12 @@
     h2 {
         font-size: 3.7em !important;
         margin-bottom: 0rem !important;
-
+        color: white !important;
+        @include downBreakpoint($breakpoint-up-md) {
+                font-size: 25px !important;
+        }
         @include downBreakpoint($breakpoint-up-sm) {
-            font-size: 1.7em !important;
+            font-size: 18px !important;
         }
         span {
             color: #16E22A !important;
@@ -21,9 +24,14 @@
         font-weight: 400 !important;
         font-size: 1.8em !important;
         margin-bottom: 4rem !important;
-
+        color: #6f6f6f !important;
+        @include downBreakpoint($breakpoint-up-md) {
+            font-size: 20px !important;
+        }
         @include downBreakpoint($breakpoint-up-sm) {
-            font-size: 1.1em !important;
+            font-size: 16px !important;
+            margin-top: 7px !important;
+            margin-bottom: 46px !important;
         }
         span {
             color: #16E22A !important;
@@ -31,6 +39,5 @@
     }
     h2, h3 {
         text-align: center;
-        color: white !important;
     }
 }

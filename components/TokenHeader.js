@@ -45,7 +45,7 @@ const TokenHeader = () => {
                             Pide tu presupuesto
                         </Button>
                     </Grid.Column>
-                    <Grid.Column computer={4} verticalAlign="middle" className='only-menu-mobile'>
+                    <Grid.Column computer={4} mobile={3} verticalAlign="middle" className='only-menu-mobile'>
                         <Image onClick={() => dispatch(handlerShowMenu(true))} src="/menu.svg" alt="Menu"/>
                     </Grid.Column>
                 </Grid.Row>

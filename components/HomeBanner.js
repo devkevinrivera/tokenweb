@@ -4,6 +4,7 @@ import { Button, Container, Grid, Header, Icon } from 'semantic-ui-react';
 
 const HomeBanner = () => {
     const router = useRouter();
+    
     return (
         <Container className='home-banner'>
             <Grid columns={16}>

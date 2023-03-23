@@ -1,5 +1,9 @@
 .token-header {
     padding: 3.5rem 0;
+
+    @include downBreakpoint($breakpoint-up-md) {
+        padding: 1rem 0;
+    }
 }
 
 .navigation-desktop {
