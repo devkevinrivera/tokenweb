@@ -1,7 +1,10 @@
+import { useRouter } from 'next/router';
 import React from 'react';
 import { Button, Container, Grid, Icon, Image } from 'semantic-ui-react';
 
 const TokenFooter = () => {
+    const router = useRouter();
+
     return (
         <Container>
             <Grid columns={16}>
@@ -11,9 +14,9 @@ const TokenFooter = () => {
                             <b>Síguenos</b>
                         </h4>
                         <div className='token-social'>
-                            <Icon name="linkedin" size="large" className="token-color"/>
-                            <Icon name="instagram" size="large" className="token-color"/>
-                            <Icon name="youtube" size="large" className="token-color"/>
+                            <Icon onClick={() => router.push('https://www.linkedin.com/in/token-estudio-software-04b63a26b/')} name="linkedin" size="large" className="token-color"/>
+                            <Icon onClick={() => router.push('https://www.instagram.com/token.web.design/')} name="instagram" size="large" className="token-color"/>
+                            <Icon onClick={() => router.push('https://www.instagram.com/token.web.design/')} name="youtube" size="large" className="token-color"/>
                         </div>
                         <Image src="/logo.svg" alt="Logo footer" />
                         <h4>
@@ -48,7 +51,7 @@ const TokenFooter = () => {
                         </div>
                     </Grid.Column>
                     <Grid.Column computer={4} mobile={16}>
-                        <div>
+                        <div className='mgt-1'>
                             <h3>¿No encuentras lo que buscas?</h3>
                             <p>
                                 Maximiza el impacto de tu presencia en línea con un diseño web atractivo y profesional. Contrata mis servicios hoy.
