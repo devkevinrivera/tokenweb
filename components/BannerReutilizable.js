@@ -6,8 +6,8 @@ const BannerReutilizable = ({ title = '', subtitle = '', ctaLink = '', ctaText =
     const router = useRouter();
 
     return (
-        <div className='banner-reutilizable'>
-            <Container className='banner-reutilizable__container' style={{ backgroundImage:  `url(${background})` }}>
+        <div className='banner-reutilizable' style={{ backgroundImage: `url("${background}")`, backgroundSize: 'cover'}}>
+            <Container className='banner-reutilizable__container'>
                 <Grid columns={16}>
                     <Grid.Row>
                         <Grid.Column computer={16} mobile={16}>

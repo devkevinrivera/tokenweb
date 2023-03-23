@@ -106,7 +106,7 @@ const Web = () => {
                 subtitle="Trabajamos contigo para crear un sitio web que cumpla con tus objetivos de negocio y te diferencie de la competencia"
                 ctaLink="#contacto-simple"
                 ctaText="Comienza hoy"
-                background="https://www.bigbuy.eu/psublic/img/landings/dropshipping-technology/technology-banner.jpg"
+                background="https://www.todofondos.net/wp-content/uploads/1920x1080-Fondo-de-pantalla-de-gradiente-oscuro-26038-1920x1080-PX-1024x576.jpg"
             />
             <ListBlocks
                 options={listaVentajas}

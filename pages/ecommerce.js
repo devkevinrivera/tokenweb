@@ -106,7 +106,7 @@ const Web = () => {
                 subtitle="Potencia tus ventas y haz crecer tu negocio con una tienda online de última generación diseñada por nosotros"
                 ctaLink="#contacto-simple"
                 ctaText="Comienza hoy"
-                background="https://www.bigbuy.eu/psublic/img/landings/dropshipping-technology/technology-banner.jpg"
+                background="https://kschool.com/wp-content/uploads/2023/03/blog-ds-1.jpg"
             />
             <ListBlocks
                 options={listaVentajas}

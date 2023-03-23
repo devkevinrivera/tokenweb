@@ -58,7 +58,7 @@ const ServicesList = () => {
                                         <p>
                                             <i>Diseño y programación a medida</i>
                                         </p>
-                                        <Button onClick={ev => router.push('/web')} className='go-service'>Ir a Diseño a medida</Button>
+                                        <Button onClick={ev => router.push('/amedida')} className='go-service'>Ir a Diseño a medida</Button>
                                     </div>
                                 </Grid.Column>
                                

@@ -106,7 +106,7 @@ const Web = () => {
                 subtitle="Mejora la imagen de tu negocio y atrae a más clientes con nuestro diseño web personalizado y de alta calidad"
                 ctaLink="#contacto-simple"
                 ctaText="Comienza hoy"
-                background="https://www.bigbuy.eu/psublic/img/landings/dropshipping-technology/technology-banner.jpg"
+                background="https://images.unsplash.com/photo-1636953056323-9c09fdd74fa6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80"
             />
             <ListBlocks
                 options={listaVentajas}
