@@ -102,6 +102,7 @@ const Web = () => {
                 <meta name="description" content="Desde páginas web corporativas hasta tiendas en línea, nuestro equipo de expertos en diseño y desarrollo trabaja contigo para crear una presencia en línea efectiva." />
                 <meta name="keywords" content="Diseño de páginas web a medida,Experiencia de usuario,Diseño responsivo,Integración de sistemas y herramientas,Diseño de interfaces de usuario atractivas,Diseño de landing pages efectivas,Diseño de blogs personalizados,Mantenimiento y soporte técnico para sitios web,Diseño de sitios web corporativos y comerciales" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <link rel="icon" href="/Isotopo.ico" />
             </Head>
             {
                 showMenu && (

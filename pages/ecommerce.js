@@ -102,6 +102,7 @@ const Web = () => {
                 <meta name="description" content="Ofrecemos diseño de tiendas online a medida, optimizadas para una experiencia de usuario fluida y una gestión sencilla de productos. Aumenta tus ventas en línea con una tienda personalizada y adaptada a tus necesidades." />
                 <meta name="keywords" content="Diseño de tiendas online a medida,Gestión de productos,Integración de sistemas y herramientas,Diseño de pasarelas de pago seguras,Diseño de catálogos de productos,Diseño de carritos de compra personalizados,Diseño de páginas de seguimiento de pedidos,Mantenimiento y soporte técnico para tiendas online" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <link rel="icon" href="/Isotopo.ico" />
         <link rel="icon" href="/favicon.ico" />
             </Head>
             {

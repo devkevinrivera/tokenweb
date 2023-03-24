@@ -34,7 +34,7 @@ export default function Home() {
         <meta name="description" content="En nuestra agencia de diseño de software, creamos soluciones personalizadas y eficientes para llevar tu negocio al siguiente nivel. Nuestro equipo de expertos se enfoca en ofrecer productos de calidad, con una gran atención al detalle y una experiencia de usuario excepcional." />
         <meta name="keywords" content="Diseño web personalizado,Diseño web responsivo,Experiencia de usuario,Diseño de interfaz de usuario,Diseño de páginas web corporativas,Diseño de páginas web de comercio electrónico,Optimización para motores de búsqueda (SEO),Optimización para motores de búsqueda (SEO)"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/Isotopo.ico" />
       </Head>
       {
         showMenu && (

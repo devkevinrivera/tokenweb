@@ -33,6 +33,7 @@ const productos = () => {
                 <meta name="description" content="Ofrecemos soluciones personalizadas de diseño y desarrollo web, diseño de aplicaciones móviles y desarrollo de software empresarial. Trabajamos mano a mano contigo para crear soluciones que satisfagan tus necesidades empresariales específicas y te ayuden a alcanzar tus objetivos." />
                 <meta name="keywords" content="Desarrollo de software a medida,Soluciones de software personalizadas,Integración de sistemas y herramientas,Desarrollo de aplicaciones móviles,Automatización de procesos empresariales,Mantenimiento y soporte técnico de software,Diseño y desarrollo de bases de datos,Diseño y desarrollo de bases de datos" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <link rel="icon" href="/Isotopo.ico" />
             </Head>
             {
                 showMenu && (

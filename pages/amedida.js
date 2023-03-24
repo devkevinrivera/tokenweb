@@ -102,6 +102,7 @@ const Web = () => {
                 <meta name="description" content="¿Tu sitio web necesita mantenimiento constante para asegurar su rendimiento y seguridad? Ofrezco servicios de mantenimiento web profesional para mantener tu sitio actualizado, seguro y en óptimas condiciones." />
                 <meta name="keywords" content="mantenimiento web,actualización de sitio web,optimización web,corrección de errores web,monitorización de sitio web,análisis de rendimiento web,solución de problemas de sitio web" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <link rel="icon" href="/Isotopo.ico" />
             </Head>
             {
                 showMenu && (
