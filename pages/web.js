@@ -39,24 +39,24 @@ const Web = () => {
 
     const projects = {
         main: {
-            background: 'http://localhost:3000/archicercle.png',
+            background: '/archicercle.png',
             title: 'Archicercle',
             text: '',
             webUri: 'https://archicercle.com/'
         },
         secondary: [
             {
-                background: 'http://localhost:3000/justlasercuteu.png',
+                background: '/justlasercuteu.png',
                 title: 'JustlaserCut',
                 text: '',
                 webUri: 'https://justlasercut.com/'
             },{
-                background: 'http://localhost:3000/cosastudio.png',
+                background: '/cosastudio.png',
                 title: 'CosasStudio',
                 text: '',
                 webUri: 'https://cosastudio.com/'
             }, {
-                background: 'http://localhost:3000/interzoo.png',
+                background: '/interzoo.png',
                 title: 'Interzoo',
                 text: '',
                 webUri: 'https://www.interzoo.es/'
