@@ -20,12 +20,12 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   const showMenu = useSelector(state => state.app.showMenu);
   
-  // useEffect(() => {
-  //   const tagManagerArgs = {
-  //       gtmId: 'G-R8SYVSLXY9',
-  //   };
-  //   TagManager.initialize(tagManagerArgs);
-  // }, []);
+  useEffect(() => {
+    const tagManagerArgs = {
+        gtmId: 'G-R8SYVSLXY9',
+    };
+    TagManager.initialize(tagManagerArgs);
+  }, []);
 
   return (
     <section className='container-tokenweb'>
