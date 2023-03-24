@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import TokenHeader from '../components/TokenHeader'
+import Script from 'next/script'
 import HomeBanner from '../components/HomeBanner'
 import TokenServices from '../components/TokenServices'
 import AboutWe from '../components/AboutWe'
@@ -22,6 +23,7 @@ import TematicSlides from '../components/TematicSlides';
 import OfficeWork from '../components/OfficeWork';
 
 import TagManager from 'react-gtm-module'
+import { GOOGLE_TAG_ANALYTICS } from '../constants/private';
 
 const Web = () => {
     const showMenu = useSelector(state => state.app.showMenu);
@@ -94,10 +96,27 @@ const Web = () => {
         url: 'adwords.png',
         titulo: 'ESTRATEGIA DE ADWORDS'
     },];
-    
+
     return (
         <section className='container-tokenweb'>
             <Head>
+                <Script
+                    strategy="afterInteractive"
+                    src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_TAG_ANALYTICS}`}
+                />
+                <Script
+                    id="gtag-init"
+                    strategy="afterInteractive"
+                    dangerouslySetInnerHTML={{
+                    __html: `
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+
+                        gtag('config', '${GOOGLE_TAG_ANALYTICS}');
+                    `, 
+                    }}
+                />
                 <title>TOKEN: Transforma tu presencia en línea con nuestro servicio de diseño de páginas web responsivas y personalizadas</title>
                 <meta name="description" content="Desde páginas web corporativas hasta tiendas en línea, nuestro equipo de expertos en diseño y desarrollo trabaja contigo para crear una presencia en línea efectiva." />
                 <meta name="keywords" content="Diseño de páginas web a medida,Experiencia de usuario,Diseño responsivo,Integración de sistemas y herramientas,Diseño de interfaces de usuario atractivas,Diseño de landing pages efectivas,Diseño de blogs personalizados,Mantenimiento y soporte técnico para sitios web,Diseño de sitios web corporativos y comerciales" />
