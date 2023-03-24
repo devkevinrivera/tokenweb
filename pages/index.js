@@ -15,7 +15,7 @@ import TokenFooter from '../components/TokenFooter'
 import MenuToken from '../components/MenuToken'
 import { useSelector } from 'react-redux'
 import TagManager from 'react-gtm-module'
-
+import Script from 'next/script';
 const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   const showMenu = useSelector(state => state.app.showMenu);
