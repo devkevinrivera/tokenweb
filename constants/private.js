@@ -1,0 +1,1 @@
+export const GOOGLE_TAG_ANALYTICS = "G-R8SYVSLXY9"
