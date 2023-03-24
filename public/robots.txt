@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.tokenstudio.eu/
+
+# Sitemaps
+Sitemap: https://www.tokenstudio.eu/sitemap.xml
