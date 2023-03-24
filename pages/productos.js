@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import React, { useEffect } from 'react';
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
@@ -16,18 +17,14 @@ import { useSelector } from 'react-redux'
 import ServicesList from '../components/ServicesList'
 import TagManager from 'react-gtm-module'
 
-const tagManagerArgs = {
-    gtmId: 'G-R8SYVSLXY9',
-    dataLayer: {
-        event: 'pageview',
-        pagePath: 'https://www.tokenstudio.eu/productos',
-        pageTitle: 'servicios',
-  },
-};
-TagManager.initialize(tagManagerArgs);
-
 const productos = () => {
     const showMenu = useSelector(state => state.app.showMenu);
+    useEffect(() => {
+        const tagManagerArgs = {
+            gtmId: 'G-R8SYVSLXY9',
+        };
+        TagManager.initialize(tagManagerArgs);
+    }, []);
 
     return (
         <section className='container-tokenweb'>

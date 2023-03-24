@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
@@ -23,20 +23,17 @@ import OfficeWork from '../components/OfficeWork';
 
 import TagManager from 'react-gtm-module'
 
-const tagManagerArgs = {
-    gtmId: 'G-R8SYVSLXY9',
-    dataLayer: {
-        event: 'pageview',
-        pagePath: 'https://www.tokenstudio.eu/web',
-        pageTitle: 'diseñoweb',
-    },
-};
-TagManager.initialize(tagManagerArgs);
-
 const Web = () => {
     const showMenu = useSelector(state => state.app.showMenu);
     const listaVentajas = VENTAJAS_DISEÑO_WEB;
 
+    useEffect(() => {
+        const tagManagerArgs = {
+            gtmId: 'G-R8SYVSLXY9',
+        };
+        TagManager.initialize(tagManagerArgs);
+    }, []);
+    
     const projects = {
         main: {
             background: '/archicercle.png',
