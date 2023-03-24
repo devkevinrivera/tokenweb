@@ -1,10 +1,34 @@
 import { useRouter } from 'next/router';
-import React from 'react';
+import React, { useState } from 'react';
 import { Button, Container, Form, Grid, Icon, Image, Input } from 'semantic-ui-react';
-
+import { useForm } from 'react-hook-form';
+import axios from "axios"
 const ContactSimple = () => {
     const router = useRouter();
-
+    const {
+        register,
+        handleSubmit,
+        setValue,
+        watch,
+        reset,
+        formState: { errors }
+    } = useForm();
+    const [loading, setLoading] = useState(false);
+    const [emailSend, setEmailSend] = useState(false);
+    const onSubmit = async (datos) => {
+        try {
+            setLoading(true)
+            const sendData = await axios.post('/api/email', datos);
+            setEmailSend(true);
+            setTimeout(() => {
+                setEmailSend(false);
+                setLoading(false);
+                reset();
+            }, 1000);
+        } catch (e) {
+            console.log(e)
+        }
+    }
     return (
         <Container id="contacto-simple" className='contacto-simple'>
             <Grid columns={16}>
@@ -45,20 +69,26 @@ const ContactSimple = () => {
                                     </Button>
                                 </Grid.Column>
                                 <Grid.Column computer={8}  only='computer' verticalAlign='middle'>
-                                    <Form>
+                                    <Form onSubmit={handleSubmit(onSubmit)}>
+                                        {
+                                            emailSend && (
+                                                <p className='message-sucess'>Tu mensaje se ha enviado con exito. Te responderemos lo mas breve posible.</p>
+                                            )
+                                        }
                                         <Form.Field>
-                                            <Input  placeholder="Nombre" />
+                                            <input required {...register("nombre")}  placeholder="Nombre" />
                                         </Form.Field>
                                         <Form.Field>
-                                            <Input  placeholder="Email" />
+                                            <input type="email" {...register("email")}  placeholder="Email" />
                                         </Form.Field>
                                         <Form.Field>
-                                            <Input  placeholder="Asunto" />
+                                            <input type="text"  {...register("asunto")} placeholder="Asunto" />
                                         </Form.Field>
                                         <Form.Field>
-                                            <textarea  placeholder="Mensaje" />
+                                            <textarea {...register("mensaje")}  placeholder="Mensaje" />
                                         </Form.Field>
-                                        <Button className='button-home' floated="left">ENVIAR</Button>
+                                        
+                                        <Button loading={loading} type='submit' className='button-home' floated="left">ENVIAR</Button>
                                     </Form>
                                 </Grid.Column>
                             </Grid.Row>
