@@ -8,6 +8,29 @@ import { useRouter } from 'next/router';
 const TokenHeader = () => {
     const dispatch = useDispatch();
     const router = useRouter();
+    const actualRoute = router?.pathname?.replace('/', '');
+    const navigationMenu = [
+        {
+            title: 'Inicio',
+            link: '/',
+            enlace: ''
+        },
+        {
+            title: 'Servicios',
+            link: '/productos',
+            enlace: 'productos'
+        },
+        {
+            title: 'Nosotros',
+            link: '/',
+            enlace: 'nosotros'
+        },
+        {
+            title: 'Proyectos',
+            link: '/',
+            enlace: 'proyectos'
+        },
+    ];
 
     return (
         <Container className='token-header'>
@@ -32,11 +55,13 @@ const TokenHeader = () => {
                     </Grid.Column>
                     <Grid.Column computer={9} only="computer" verticalAlign='middle' >
                         <nav className='navigation-desktop'>
-                            <Link href="/">Inicio</Link>
-                            <Link href="/productos">Servicios</Link>
-                            <Link href="/">Nosotros</Link>
-                            <Link href="/">Proyectos</Link>
-                            
+                            {
+                                navigationMenu.map(({ title, link, enlace }) => (
+                                    <p  className={actualRoute === enlace ? 'menu-active' : ''}>
+                                        <Link href={link}>{ title }</Link>
+                                    </p>
+                                ))
+                            }
                         </nav>
                     </Grid.Column>
                     <Grid.Column computer={4} verticalAlign="middle" only='computer'>

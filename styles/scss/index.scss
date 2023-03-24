@@ -44,3 +44,10 @@
 .logo-web {
     cursor: pointer;
 }
+
+.menu-active {
+    a {
+        color: #16E22A !important;
+    }
+    border-bottom: 2px solid #16E22A !important;
+}
