@@ -6,7 +6,7 @@ import Script from 'next/script'
 import { GOOGLE_TAG_ANALYTICS } from '../constants/private';
 import * as gtag from '../lib/gtag'
 import { useRouter } from 'next/router'
-
+import { useEffect } from 'react';
 export default function App({ Component, pageProps }) {
 
   const router = useRouter()
@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }) {
       router.events.off('hashChangeComplete', handleRouteChange)
     }
   }, [router.events])
-  
+
   return (
     <>
       {/* Global Site Tag (gtag.js) - Google Analytics */}

@@ -88,12 +88,12 @@ const Web = () => {
         titulo: 'Y MAS'
     },];
     
-    useEffect(() => {
-        const tagManagerArgs = {
-            gtmId: 'G-R8SYVSLXY9',
-        };
-        TagManager.initialize(tagManagerArgs);
-    }, []);
+    // useEffect(() => {
+    //     const tagManagerArgs = {
+    //         gtmId: 'G-R8SYVSLXY9',
+    //     };
+    //     TagManager.initialize(tagManagerArgs);
+    // }, []);
     
     return (
         <section className='container-tokenweb'>
