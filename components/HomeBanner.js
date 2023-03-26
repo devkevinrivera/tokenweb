@@ -6,7 +6,8 @@ const HomeBanner = () => {
     const router = useRouter();
     
     return (
-        <Container className='home-banner'>
+        <div>
+            <Container className='home-banner'>
             <Grid columns={16}>
                 <Grid.Row>
                     <Grid.Column computer={16} className='home-banner__content'>
@@ -24,6 +25,7 @@ const HomeBanner = () => {
                 </Grid.Row>
             </Grid>
         </Container>
+        </div>
     );
 };
 
