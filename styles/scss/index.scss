@@ -43,6 +43,10 @@
 
 .logo-web {
     cursor: pointer;
+    
+    @include downBreakpoint($breakpoint-up-md) {
+        width: 60% !important;
+    }
 }
 
 .menu-active {
