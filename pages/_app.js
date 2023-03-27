@@ -7,6 +7,9 @@ import { GOOGLE_TAG_ANALYTICS } from '../constants/private';
 import * as gtag from '../lib/gtag'
 import { useRouter } from 'next/router'
 import { useEffect } from 'react';
+import LogRocket from 'logrocket';
+LogRocket.init('35mmws/tokenstudio');
+
 export default function App({ Component, pageProps }) {
 
   const router = useRouter()
