@@ -18,7 +18,7 @@ const TokenFooter = () => {
                             <Icon onClick={() => router.push('https://www.instagram.com/token.web.design/')} name="instagram" size="large" className="token-color"/>
                             <Icon onClick={() => router.push('https://www.instagram.com/token.web.design/')} name="youtube" size="large" className="token-color"/>
                         </div>
-                        <Image src="/logo.svg" alt="Logo footer" />
+                        <Image src="/logofinal2.svg" alt="Logo footer" />
                         <h4>
                             Desde Valencia y con mucho cariño, desarrollamos en serie productos únicos.
                         </h4>

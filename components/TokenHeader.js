@@ -51,7 +51,7 @@ const TokenHeader = () => {
                     <Grid.Column mobile={13} computer={3}  verticalAlign='middle' >
                         <Image onClick={() => {
                             router.push("/")
-                        }} src="/logo.svg" alt="Token Logo" className='logo-web'/>
+                        }} src="/logofinal2.svg" alt="Token Logo" className='logo-web'/>
                     </Grid.Column>
                     <Grid.Column computer={9} only="computer" verticalAlign='middle' >
                         <nav className='navigation-desktop'>
